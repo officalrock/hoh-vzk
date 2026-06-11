@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vite/
+*.local
+.claude/
+__pycache__/
+*.pyc
+
+# Große Assets (lokal verwaltet, nicht im Repo)
+assets/Fotos/
+assets/regelplaene/*.pdf
+assets/zeichen-ole/

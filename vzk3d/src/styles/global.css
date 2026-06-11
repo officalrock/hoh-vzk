@@ -1,0 +1,150 @@
+/* =====================================================================
+   VZK – globale Styles & Design-Tokens (CSS-Variablen)
+   Werte gespiegelt aus src/theme/tokens.js. Dark Mode ist Standard.
+   ===================================================================== */
+
+@font-face {
+  font-family: "DIN 1451 Mittelschrift";
+  src: url("/DIN1451B.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN 1451 Engschrift";
+  src: url("/DIN1451A.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Signal-/Akzentfarben */
+  --signal-rot: #e2231a;
+  --signal-orange: #ef7f1a;
+  --signal-gelb: #f4c400;
+  --signal-blau: #1b50a3;
+  --signal-gruen: #1f7a44;
+
+  --accent: #ef7f1a;
+  --accent-kontrast: #1a1207; /* Text auf Akzent */
+
+  /* Radien / Abstände */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-pill: 999px;
+  --touch-min: 48px;
+
+  --maxw: 1240px;
+
+  font-synthesis: none;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- Dark Mode (Standard) ---------- */
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0e1116;
+  --bg-2: #141922;
+  --surface: #171d27;
+  --surface-2: #1e2531;
+  --surface-hover: #232b39;
+  --line: #2b3340;
+  --text: #f2f4f7;
+  --text-leise: #aab3c0;
+  --text-schwach: #79838f;
+  --schild-bg: #f4f5f7; /* heller Träger hinter den Zeichen-Grafiken */
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.55);
+  --accent-text: #ffa94d; /* Akzent als Text auf dunklem Grund (AA) */
+  --focus: 0 0 0 3px rgba(239, 127, 26, 0.55);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "DIN 1451 Mittelschrift", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Zahlen/VZ-Nummern monospaced für klare Lesbarkeit */
+.mono {
+  font-family: "DIN 1451 Engschrift", ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: var(--accent-text);
+}
+
+/* Sichtbarer, kräftiger Fokusring (Tastatur + Sonnenlicht) */
+:where(a, button, input, select, [tabindex], [role="button"]):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* App-weite Übergänge nur bei erlaubter Bewegung */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

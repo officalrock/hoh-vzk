@@ -1,0 +1,193 @@
+/* Katalog: Suchleiste, Filter-Chips, Karten-Grid */
+
+.katalog__kopf {
+  margin-bottom: 14px;
+}
+.katalog__titel {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-bottom: 4px;
+}
+.katalog__sub {
+  color: var(--text-leise);
+  font-size: 0.92rem;
+}
+
+.searchbar {
+  position: sticky;
+  top: 72px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  /* transparent: das Glas der Suchleiste frostet den Inhalt dahinter */
+  background: linear-gradient(180deg, var(--bg) 30%, transparent);
+}
+.searchbar__field {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 0 16px;
+  /* Material kommt von .glass; Radius an die App angeglichen */
+  border-radius: var(--r-md);
+}
+.searchbar__field:focus-within {
+  border-color: var(--accent);
+  box-shadow: var(--focus);
+}
+.searchbar__field input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.05rem;
+  min-width: 0;
+}
+.searchbar__field input::placeholder {
+  color: var(--text-schwach);
+}
+.searchbar__clear {
+  border: none;
+  background: transparent;
+  color: var(--text-leise);
+  cursor: pointer;
+  display: inline-flex;
+  padding: 6px;
+  border-radius: var(--r-sm);
+}
+.searchbar__clear:hover {
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+.filter {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 12px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.chip {
+  flex: 0 0 auto;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 14px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text-leise);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+.chip--active {
+  color: var(--text);
+  background: var(--surface-2);
+  border-color: var(--accent);
+}
+.chip__count {
+  font-size: 0.78rem;
+  color: var(--text-schwach);
+}
+.chip__swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.trefferinfo {
+  color: var(--text-leise);
+  font-size: 0.85rem;
+  margin: 2px 2px 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+}
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.signcard {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  cursor: pointer;
+  transition: transform 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease;
+}
+.signcard:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+}
+.signcard__bildbox {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: var(--r-sm);
+  background: var(--schild-bg);
+}
+.signcard__bildbox img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.signcard__nr {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.signcard__name {
+  font-size: 0.8rem;
+  color: var(--text-leise);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.signcard__kat {
+  margin-top: auto;
+}
+.signcard__kat .badge {
+  font-size: 0.68rem;
+  padding: 2px 8px;
+}
+
+.sentinel {
+  height: 1px;
+}
+
+.leer {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--text-leise);
+}
+.leer b {
+  display: block;
+  color: var(--text);
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}

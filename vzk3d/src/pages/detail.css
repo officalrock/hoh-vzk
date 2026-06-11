@@ -1,0 +1,144 @@
+/* Detailansicht eines Zeichens */
+
+.detail__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-bottom: 12px;
+  background: transparent;
+  border: none;
+  color: var(--text-leise);
+  font-weight: 600;
+  cursor: pointer;
+}
+.detail__back:hover {
+  color: var(--text);
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.detail__stage {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  min-height: 360px;
+  /* Material (Liquid Glass) kommt von .glass */
+}
+.detail__canvas {
+  position: absolute;
+  inset: 0;
+}
+.detail__static {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12%;
+}
+.detail__static img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.35));
+}
+.detail__stage-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  color: var(--text);
+  font-size: 0.78rem;
+  /* Material (Glass) kommt von .glass-control */
+}
+.detail__stage-toggle {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 2;
+}
+
+.detail__info {
+  padding: 22px 24px;
+}
+.detail__info h1 {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 8px 0 6px;
+}
+.detail__nr {
+  font-size: 1.05rem;
+  color: var(--accent-text);
+  font-weight: 700;
+}
+.detail__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 18px;
+}
+.detail__block {
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+.detail__block h2 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-schwach);
+  margin-bottom: 6px;
+}
+.detail__block p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.55;
+}
+.detail__meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 0.92rem;
+}
+.detail__meta dt {
+  color: var(--text-schwach);
+}
+.detail__meta dd {
+  margin: 0;
+}
+
+.detail__wunschtext {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.detail__wunschtext-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+.detail__wunschtext-input::placeholder {
+  color: var(--text-schwach);
+}
+
+@media (max-width: 820px) {
+  .detail {
+    grid-template-columns: 1fr;
+  }
+  .detail__stage {
+    aspect-ratio: 1 / 1;
+  }
+}

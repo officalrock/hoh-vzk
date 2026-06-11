@@ -1,0 +1,130 @@
+/* App-Rahmen: Kopfzeile + Inhalt */
+
+.appshell {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  padding: 10px 0;
+}
+/* Liquid-Glass-Leiste, schwebend */
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 60px;
+  padding: 0 14px;
+  border-radius: var(--r-lg);
+  /* .glass-Klasse liefert das Material; hier nur Layout + feine Bodenkante */
+}
+.topbar__inner::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px;
+  margin-right: auto;
+}
+.topbar__logo {
+  height: 34px;
+  width: auto;
+  background: #fff;
+  border-radius: 7px;
+  padding: 3px 6px;
+}
+.topbar__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  text-align: left;
+}
+.topbar__title b {
+  font-size: 1.02rem;
+  letter-spacing: 0.02em;
+}
+.topbar__title span {
+  font-size: 0.72rem;
+  color: var(--text-leise);
+}
+
+.topbar__nav {
+  display: flex;
+  gap: 4px;
+}
+.navlink {
+  min-height: var(--touch-min);
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+  border-radius: var(--r-md);
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-leise);
+  font-weight: 600;
+  cursor: pointer;
+}
+.navlink:hover {
+  color: var(--text);
+  background: var(--surface-2);
+}
+.navlink--active {
+  color: var(--text);
+  background: var(--surface-2);
+  border-color: var(--line);
+}
+
+.iconbtn {
+  min-height: var(--touch-min);
+  min-width: var(--touch-min);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  cursor: pointer;
+}
+/* Wenn nicht mit .glass-control kombiniert: solider Rahmen als Fallback */
+.iconbtn:not(.glass-control) {
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+}
+
+.appmain {
+  flex: 1;
+  padding: 20px 0 56px;
+}
+
+.appfooter {
+  border-top: 1px solid var(--line);
+  color: var(--text-schwach);
+  font-size: 0.8rem;
+  padding: 18px 0;
+}
+
+@media (max-width: 560px) {
+  .topbar__title span {
+    display: none;
+  }
+  .navlink {
+    padding: 0 11px;
+  }
+}

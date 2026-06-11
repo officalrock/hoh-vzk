@@ -1,0 +1,265 @@
+/* Materialliste-Builder + Zeichen-Picker */
+
+.mat {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.mat__params {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+.mat__field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-leise);
+}
+.mat__field select,
+.mat__field input {
+  min-height: 44px;
+  min-width: 130px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-weight: 400;
+}
+
+.mat__group {
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: var(--surface);
+}
+.mat__grouphead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.mat__grouphead h3 {
+  font-size: 1rem;
+}
+.mat__rows {
+  display: flex;
+  flex-direction: column;
+}
+.mat__row {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+}
+.mat__row:last-child {
+  border-bottom: none;
+}
+.mat__row--wunsch {
+  border-left: 3px solid var(--accent);
+  background: rgba(239, 127, 26, 0.06);
+}
+.mat__thumb {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--schild-bg);
+  border-radius: 8px;
+  padding: 4px;
+}
+.mat__thumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.mat__rowmain {
+  min-width: 0;
+}
+.mat__rowname {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.mat__rowname .mono {
+  color: var(--accent-text);
+  margin-right: 6px;
+}
+.mat__rowcalc {
+  font-size: 0.78rem;
+  color: var(--text-leise);
+  margin-top: 2px;
+}
+.mat__rowctrl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.mat__rowctrl select,
+.mat__rowctrl input {
+  min-height: 40px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+}
+.mat__num {
+  width: 66px;
+  text-align: right;
+}
+.mat__size {
+  width: 64px;
+}
+.mat__plates {
+  min-width: 96px;
+  text-align: right;
+  font-weight: 700;
+}
+.mat__plates b {
+  color: var(--accent-text);
+}
+.mat__del {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  color: var(--text-schwach);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.mat__del:hover {
+  color: var(--signal-rot);
+  background: var(--surface-2);
+}
+.mat__add {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin: 12px 14px;
+  padding: 0 16px;
+  border: 1px dashed var(--line);
+  border-radius: var(--r-md);
+  background: transparent;
+  color: var(--accent-text);
+  font-weight: 600;
+  cursor: pointer;
+}
+.mat__add:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+.mat__empty {
+  padding: 14px;
+  color: var(--text-schwach);
+  font-size: 0.88rem;
+}
+
+.mat__total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: var(--r-md);
+  background: var(--indigo);
+  color: #fff;
+}
+.mat__total .mat__totalval {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.mat__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Zeichen-Picker (Dialog) */
+.picker {
+  border: none;
+  border-radius: var(--r-lg);
+  padding: 0;
+  width: min(720px, calc(100vw - 28px));
+  max-height: 84dvh;
+  background: var(--surface);
+  color: var(--text);
+}
+.picker::backdrop {
+  background: rgba(6, 9, 14, 0.6);
+}
+.picker__head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  padding: 14px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+.picker__head input {
+  flex: 1;
+  min-height: 46px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+}
+.picker__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+  gap: 10px;
+  padding: 14px;
+  overflow-y: auto;
+}
+.picker__item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  cursor: pointer;
+  text-align: center;
+}
+.picker__item:hover {
+  border-color: var(--accent);
+}
+.picker__item-img {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--schild-bg);
+  border-radius: 6px;
+  padding: 5px;
+}
+.picker__item-img img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.picker__item-nr {
+  font-size: 0.78rem;
+  font-weight: 700;
+}

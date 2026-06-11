@@ -1,0 +1,30 @@
+{
+  "name": "vzk3d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "VZK – Verkehrszeichenkatalog. Modernes 3D-Frontend für Verkehrssicherer (React + react-three-fiber).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.19.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "motion": "^11.11.17",
+    "pdf-lib": "^1.17.1",
+    "postprocessing": "^6.39.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,239 @@
+/* Regelpläne: Liste, Detail, Firmen-Platzhalter */
+
+.rp-kopf {
+  margin-bottom: 14px;
+}
+.rp-kopf h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+.rp-kopf p {
+  color: var(--text-leise);
+  font-size: 0.92rem;
+  margin-top: 4px;
+}
+
+.rp-filter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.rp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
+}
+.rp-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease;
+}
+.rp-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+}
+.rp-card__bild {
+  aspect-ratio: 4 / 3;
+  background: var(--schild-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--line);
+}
+.rp-card__bild img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.rp-card__ph {
+  color: var(--text-schwach);
+  font-size: 0.82rem;
+  text-align: center;
+  padding: 16px;
+}
+.rp-card__body {
+  padding: 12px 14px;
+}
+.rp-card__nr {
+  font-weight: 700;
+  color: var(--accent-text);
+}
+.rp-card__titel {
+  font-size: 0.9rem;
+  color: var(--text-leise);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+/* Detail */
+.rp-detail {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 22px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .rp-detail {
+    grid-template-columns: 1fr;
+  }
+}
+.rp-stage {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: var(--schild-bg);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rp-stage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.rp-stage__ph {
+  padding: 40px 24px;
+  text-align: center;
+  color: var(--text-schwach);
+}
+.rp-stage__ph b {
+  display: block;
+  color: var(--text-leise);
+  margin-bottom: 6px;
+}
+
+.rp-info h1 {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  margin: 6px 0;
+}
+.rp-info__nr {
+  color: var(--accent-text);
+  font-weight: 700;
+}
+.rp-info__desc {
+  color: var(--text-leise);
+  margin: 8px 0 16px;
+}
+
+/* Firmen-Platzhalter */
+.firma {
+  border: 1px dashed var(--line);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  background: var(--surface);
+}
+.firma__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.firma__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-schwach);
+  font-weight: 700;
+}
+.firma__edit {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  cursor: pointer;
+}
+.firma__form {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+.firma__form input {
+  min-height: 42px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+}
+.firma__view {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+.firma__view strong {
+  font-size: 1rem;
+}
+.firma__placeholder {
+  color: var(--text-schwach);
+  font-size: 0.86rem;
+  margin: 8px 0 0;
+}
+
+.rp-section-title {
+  font-size: 1.15rem;
+  margin: 22px 0 12px;
+}
+
+/* PDF-Einbettung */
+.rp-pdf {
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: var(--surface);
+}
+.rp-pdf__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.rp-pdf__name {
+  font-size: 0.82rem;
+  color: var(--text-leise);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rp-pdf__open {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--accent-text);
+}
+.rp-pdf__frame {
+  width: 100%;
+  height: min(80dvh, 900px);
+  border: none;
+  display: block;
+  background: #525659;
+}

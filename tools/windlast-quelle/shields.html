@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Auswahl</title>
+
+<!-- Um Css Datei hinzuzufügen, oben ins Array eintragen -->
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="./css/template.css"></head>
+<body>
+	<div id="hauptbox">
+		<div id="kopf">
+			<a target="_blank" href="https://www.ivst.de/verkehrssicherung.html"><img src="./bilder/ivst-logo.gif" alt="ivst-logo" width="275" height="120" border="0" style="float:left;"></a>
+			<a href="index.php?page=place" style="float:right;clear: right;underline:none;text-decoration-line: none;">
+				<h2>Fachabteilung: Verkehrssicherung</h2>
+				<h1>Windlastberechung von Verkehrszeichen </h1>
+			</a>
+		</div>
+	
+	<div class="inputdiv" onclick="">
+		<h3> wählen Sie die Verkehrszeichen aus</h3>
+		<div class="schildanzeige"  width="90" id="schild1" value="101" onclick="oeffnen(1)">
+			<p>1 Oberes Verkehrszeichen</p>
+			<img id="shield1SelectedImage" class="auswahl" src="./drawable/schild101.png">
+			<img class="kleinerpfeil" src="./bilder/kleinerpfeil.png">
+		</div>
+
+		<div class="schildanzeige" id="schild2" onclick="oeffnen(2)">
+			<p>2 Mittleres Verkehrszeichen</p>
+			<img id="shield2SelectedImage" class="auswahl" src="./drawable/schild101.png">
+			<img class="kleinerpfeil" src="./bilder/kleinerpfeil.png">
+		</div>
+		<div onclick="schliessen(2)" id="schildweg2" class="schildwegbild" ><img  src="./bilder/muelleimer.png"></div>
+		<div class="schildanzeige" id="schild3" onclick="oeffnen(3)">
+			<p>3 Unteres Verkehrszeichen</p>
+			<img id="shield3SelectedImage" class="auswahl" src="./drawable/schild101.png">
+			<img class="kleinerpfeil" src="./bilder/kleinerpfeil.png">
+		</div>
+		<div onclick="schliessen(3)" id="schildweg3" class="schildwegbild" ><img  src="./bilder/muelleimer.png"></div>
+
+		<div id="schilderbox">
+			<div name="101" class="schildboxauswahl" onclick="schilderboxschliessen(0, this)"><p>VZ 101</p><img id="imageShield0" src="./drawable/schild101.png"> </div>
+			<div name="205" class="schildboxauswahl" onclick="schilderboxschliessen(1, this)"><p>VZ 205</p><img id="imageShield1" src="./drawable/schild205.png"> </div>
+			<div name="206" class="schildboxauswahl" onclick="schilderboxschliessen(2, this)"><p>VZ 206</p><img id="imageShield2" src="./drawable/schild206.png"> </div>
+			<div name="220" class="schildboxauswahl" onclick="schilderboxschliessen(3, this)"><p>VZ 220</p><img id="imageShield3" style="height: 54px;margin-top: 15px;" src="./drawable/schild220.png"> </div>
+			<div name="250" class="schildboxauswahl" onclick="schilderboxschliessen(4, this)"><p>VZ 250</p><img id="imageShield4" src="./drawable/schild250.png"> </div>
+			<div name="306" class="schildboxauswahl" onclick="schilderboxschliessen(5, this)"><p>VZ 306</p><img id="imageShield5" src="./drawable/schild306.png"> </div>
+			<div name="357" class="schildboxauswahl" onclick="schilderboxschliessen(6, this)"><p>VZ 357</p><img id="imageShield6" src="./drawable/schild357.png"> </div>
+			<div name="454" class="schildboxauswahl" onclick="schilderboxschliessen(7, this)"><p>VZ 454</p><img id="imageShield7" style="height: 40px;margin-top: 23px;" src="./drawable/schild454.png"> </div>
+			<div name="455" class="schildboxauswahl" onclick="schilderboxschliessen(8, this)"><p>VZ 455</p><img id="imageShield8" src="./drawable/schild455.png"> </div>
+			<div name="457" class="schildboxauswahl" onclick="schilderboxschliessen(9, this)"><p>VZ 457</p><img id="imageShield9" style="height: 48px;margin-top: 19px;" src="./drawable/schild457.png"> </div>
+			<div name="458" class="schildboxauswahl" onclick="openFreeShieldBox()"><p>VZ 458</p><img id="imageShield10" src="./drawable/schild458.png"> </div>
+			<div name="501" class="schildboxauswahl" onclick="schilderboxschliessen(11, this)"><p>VZ 501</p><img id="imageShield11" src="./drawable/schild501.png"> </div>
+			<div name="schildzz1" class="schildboxauswahlzz" onclick="schilderboxschliessen(12, this)"><p>ZZ1  <span style="font-size:17px;">Einzeilig </span></p><img id="imageShield12" style="margin-top: 18px;height: 44px;margin-left:20px;" src="./drawable/schildzz1.png"> </div>
+			<div name="schildzz2" class="schildboxauswahlzz" onclick="schilderboxschliessen(13, this)"><p>ZZ2  <span style="font-size:17px;">Zweizeilig</span></p><img id="imageShield13" style="margin-top: 10px;height: 60px;margin-left:20px;"src="./drawable/schildzz2.png"> </div>
+			<div name="schildzz3" class="schildboxauswahlzz" onclick="schilderboxschliessen(14, this)"><p>ZZ3  <span style="font-size:17px;">Dreizeilig</span></p><img id="imageShield14" style="height: 80px;margin-left:20px;"src="./drawable/schildzz3.png"> </div>
+		</div>
+		<div id="grauebox" style="display:none;"></div>
+		<div id="freiesschildbox" style="display:none;">
+			<img style="float:left;margin-right:15px;" src="./drawable/schild458.png">
+			<input style="float:left;margin-right:15px;margin-bottom:20px;" type="number" id="freischildhoehe" value="1600"/><label style="margin:0px;margin-bottom:20px;">mm Höhe</label>
+			<input style="float:left;margin-right:15px;margin-bottom:20px;" type="number" id="freischildbreite" value="1250"/><label style="margin:0px;margin-bottom:20px;">mm Breite</label>
+			<input  class="knopf" type="button" value="Übernehmen" onclick="closeFreeShieldBox()" />
+		</div>
+
+	</div>
+
+		<div class="knopfbox"><button onclick="getnewvz()" class="mittelknopf">Hinzufügen</button></div>
+		<div class="knopfbox">
+			<input  class="knopf" type="button" value="Zurück" onclick="window.location.href='./index.php?page=size'" />
+			<input class="knopf" type="submit" value="Weiter" onclick="submit()"/>
+		</div>
+    <form id="hiddenform" action='./index.php?page=overview' method="POST">
+      <input type="hidden" id="formShield1" name="shield1" value="101">
+      <input type="hidden" id="formShield2" name="shield2" value="101">
+      <input type="hidden" id="formShield3" name="shield3" value="101">
+      <input type="hidden" id="number" name="numberOfShields" value="1">
+      <input type="hidden" id="width1" name="width1" value="1250">
+      <input type="hidden" id="height1" name="height1" value="1600">
+      <input type="hidden" id="width2" name="width2" value="1250">
+      <input type="hidden" id="height2" name="height2" value="1600">
+      <input type="hidden" id="width3" name="width3" value="1250">
+      <input type="hidden" id="height3" name="height3" value="1600">
+    </form>
+
+
+<script type="application/javascript">
+//Werte der Schilder initialisieren
+var number = document.getElementById("number").value;
+var open = 0;
+var actualShield;
+var shieldIndex_1 = document.getElementById("formShield1").value;
+var shieldIndex_2 = document.getElementById("formShield2").value;
+var shieldIndex_3 = document.getElementById("formShield3").value;
+var width1 =  document.getElementById("width1").value;
+var height1 = document.getElementById("height1").value;
+var width2 =  document.getElementById("width2").value;
+var height2 = document.getElementById("height2").value;
+var width3 =  document.getElementById("width3").value;
+var height3 = document.getElementById("height3").value;
+
+
+document.getElementById("schild2").style.display = "none";
+document.getElementById("schild3").style.display = "none";
+document.getElementById("schildweg2").style.display = "none";
+document.getElementById("schildweg3").style.display = "none";
+
+if(number >= 2){
+  document.getElementById("schild2").style.display = "block";
+  document.getElementById("schildweg2").style.display = "block";
+}
+if(number >= 3){
+  document.getElementById("schild3").style.display = "block";
+  document.getElementById("schildweg3").style.display = "block";
+}
+
+function getnewvz(){
+  number++;
+
+	switch(number){
+		case 2:
+			shieldIndex_2=101;
+		break;
+		case 3:
+			shieldIndex_3=101;
+		break;
+	}
+	
+	if(document.getElementById("schild2").style.display=="block"){
+		document.getElementById("schild3").style.display="block";
+		document.getElementById("schildweg3").style.display="block";
+	}
+	else{
+		document.getElementById("schild2").style.display="block";
+		document.getElementById("schildweg2").style.display="block";
+	}
+}
+
+//Form abschicken
+function submit(){
+  document.getElementById("formShield1").value = shieldIndex_1;
+  document.getElementById("formShield2").value = shieldIndex_2;
+  document.getElementById("formShield3").value = shieldIndex_3;
+  document.getElementById("number").value = number;
+  document.getElementById("width1").value = width1;
+  document.getElementById("height1").value = height1;
+  document.getElementById("width2").value = width2;
+  document.getElementById("height2").value = height2;
+  document.getElementById("width3").value = width3;
+  document.getElementById("height3").value = height3;
+  document.getElementById("hiddenform").submit();
+}
+
+//Fenster schliessen
+function schliessen(x){
+  number--;
+	if(x==3)
+	{
+		document.getElementById("schild3").style.display="none";
+		document.getElementById("schildweg3").style.display = "none";
+		height3 = 1600;
+		width3	= 1250;
+		document.getElementById("shield3SelectedImage").src = "./drawable/schild101.png";
+	}
+	else if(x==2)
+	{
+		if(document.getElementById("schild3").style.display=="block")
+		{
+			var schild2 = document.getElementById("schild2");
+			var schild3 = document.getElementById("schild3");
+
+			document.getElementById("schild3").style.display="none";
+			document.getElementById("schildweg3").style.display = "none";
+			// werte von box 3 in 2 übertragen!
+			document.getElementById("shield2SelectedImage").src = document.getElementById("shield3SelectedImage").src;
+			shieldIndex_2 = shieldIndex_3;
+			height2 = height3;
+			width2  = width3;
+			document.getElementById("shield3SelectedImage").src = "./drawable/schild101.png";
+			height3 = 1600;
+			width3	= 1250;
+		}
+		else{
+			document.getElementById("schild2").style.display = "none";
+			document.getElementById("schildweg2").style.display = "none";
+			document.getElementById("shield2SelectedImage").src = "./drawable/schild101.png";
+			height2 = 1600;
+			width2  = 1250;
+		}
+	}
+}
+
+//Fenster öffnen
+function oeffnen(x){
+  actualShield = x;
+	document.getElementById("schilderbox").style.display="block";
+	
+}
+
+//Freie-Schild-Box schliessen
+function closeFreeShieldBox(){
+  document.getElementById("freiesschildbox").style.display = "none";
+  document.getElementById("grauebox").style.display = "none";
+  if(document.getElementById("schilderbox").style.display == "block")
+  {
+     document.getElementById("schilderbox").style.display="none";
+  }
+   switch(actualShield){
+    case 1:
+      shieldIndex_1 = 458;
+      width1 = document.getElementById("freischildbreite").value;
+      height1 = document.getElementById("freischildhoehe").value;
+      document.getElementById("shield1SelectedImage").src =
+      document.getElementById("imageShield10").src;
+    break;
+    case 2:
+      shieldIndex_2 = 458;
+      width2 = document.getElementById("freischildbreite").value;
+      height2 = document.getElementById("freischildhoehe").value;
+      document.getElementById("shield2SelectedImage").src =
+      document.getElementById("imageShield10").src;
+    break;
+    case 3:
+      shieldIndex_3 = 458;
+      width3 = document.getElementById("freischildbreite").value;
+      height3 = document.getElementById("freischildhoehe").value;
+      document.getElementById("shield3SelectedImage").src =
+      document.getElementById("imageShield10").src;
+    break;
+  }
+}
+
+//Freie-Schild-Box öffnen
+function openFreeShieldBox(){
+  document.getElementById("freiesschildbox").style.display = "block";
+  document.getElementById("grauebox").style.display = "block";
+  
+
+  switch(actualShield){
+    case 1:
+       document.getElementById("freischildhoehe").value = height1;
+	   document.getElementById("freischildbreite").value = width1;
+    break;
+    case 2:
+        document.getElementById("freischildhoehe").value = height2;
+		document.getElementById("freischildbreite").value = width2;
+    break;
+    case 3:
+       document.getElementById("freischildhoehe").value = height3;
+	   document.getElementById("freischildbreite").value = width3;
+    break;
+  }
+  
+}
+
+//Schilderbox schliessen
+function schilderboxschliessen(x, element){
+	  if(document.getElementById("schilderbox").style.display == "block")
+		   document.getElementById("schilderbox").style.display="none";
+
+	  switch(actualShield){
+		case 1:
+		  shieldIndex_1 = element.getAttribute("name");
+		  document.getElementById("shield1SelectedImage").src =
+			document.getElementById("imageShield" + x).src;
+						
+		break;
+		case 2:
+		  shieldIndex_2 = element.getAttribute("name");
+		  document.getElementById("shield2SelectedImage").src =
+			document.getElementById("imageShield" + x).src;
+		break;
+		case 3:
+		  shieldIndex_3 = element.getAttribute("name");
+		  document.getElementById("shield3SelectedImage").src =
+			document.getElementById("imageShield" + x).src;
+		break;
+	  }
+}
+</script>
+
+	</div>
+	<div id="fuss">
+			Copyright 2018 IVST Fachabteilung Verkehrssicherung<br/>
+			<a href="https://www.ivst.de/datenschutz/" target="_blank" ><strong>Datenschutz</strong></a>
+			<a href="https://www.ivst.de/impressum/" target="_blank" ><strong>Impressum</strong></a>
+		</div>
+</body>
+</html>

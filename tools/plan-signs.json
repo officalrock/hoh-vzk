@@ -1,0 +1,712 @@
+{
+ "BI-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-10": [
+  {
+   "nummer": "123",
+   "anzahl": 2
+  },
+  {
+   "nummer": "511-21",
+   "anzahl": 1
+  }
+ ],
+ "BI-11": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-10",
+   "anzahl": 1
+  }
+ ],
+ "BI-12": [
+  {
+   "nummer": "123",
+   "anzahl": 2
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "BI-13": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "BI-14": [
+  {
+   "nummer": "123",
+   "anzahl": 2
+  },
+  {
+   "nummer": "214-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "214-30",
+   "anzahl": 1
+  },
+  {
+   "nummer": "220-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "220-20",
+   "anzahl": 2
+  },
+  {
+   "nummer": "267",
+   "anzahl": 2
+  }
+ ],
+ "BI-15": [
+  {
+   "nummer": "214",
+   "anzahl": 1
+  },
+  {
+   "nummer": "214-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "214-30",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357-51",
+   "anzahl": 1
+  }
+ ],
+ "BI-16": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-17": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "214-30",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357-51",
+   "anzahl": 1
+  }
+ ],
+ "BI-18": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "125",
+   "anzahl": 1
+  },
+  {
+   "nummer": "220-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "220-20",
+   "anzahl": 1
+  },
+  {
+   "nummer": "267",
+   "anzahl": 2
+  },
+  {
+   "nummer": "357",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357-51",
+   "anzahl": 1
+  }
+ ],
+ "BI-19": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-2": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-3": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-4": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-5": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-6": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-7": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BI-8": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "208",
+   "anzahl": 1
+  },
+  {
+   "nummer": "308",
+   "anzahl": 1
+  }
+ ],
+ "BI-9": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "501-16",
+   "anzahl": 1
+  }
+ ],
+ "BII-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BII-10": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BII-2": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "239",
+   "anzahl": 1
+  },
+  {
+   "nummer": "240",
+   "anzahl": 1
+  },
+  {
+   "nummer": "241-30",
+   "anzahl": 1
+  }
+ ],
+ "BII-3": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "239",
+   "anzahl": 1
+  }
+ ],
+ "BII-4": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BII-5": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BII-6": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BII-7": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "239",
+   "anzahl": 1
+  }
+ ],
+ "BII-8": [
+  {
+   "nummer": "102",
+   "anzahl": 1
+  },
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "239",
+   "anzahl": 1
+  }
+ ],
+ "BII-9": [
+  {
+   "nummer": "123",
+   "anzahl": 2
+  }
+ ],
+ "BIII-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "BIV-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BIV-2": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "BIV-3": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "BIV-4": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "CI-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-70",
+   "anzahl": 2
+  }
+ ],
+ "CI-10": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "276",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  },
+  {
+   "nummer": "514-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "514-20",
+   "anzahl": 1
+  }
+ ],
+ "CI-11": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "274-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "532-10",
+   "anzahl": 1
+  }
+ ],
+ "CI-12": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "131",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  }
+ ],
+ "CI-13": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "131",
+   "anzahl": 1
+  },
+  {
+   "nummer": "214-30",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "357",
+   "anzahl": 1
+  }
+ ],
+ "CI-2": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "276",
+   "anzahl": 2
+  },
+  {
+   "nummer": "280",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  }
+ ],
+ "CI-3": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "276",
+   "anzahl": 2
+  },
+  {
+   "nummer": "280",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  }
+ ],
+ "CI-4": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "276",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  }
+ ],
+ "CI-5": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "131",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "276",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  }
+ ],
+ "CI-6": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "276",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "280",
+   "anzahl": 1
+  },
+  {
+   "nummer": "310",
+   "anzahl": 1
+  }
+ ],
+ "CI-7": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-10",
+   "anzahl": 1
+  }
+ ],
+ "CI-8": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "274-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "CI-9": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 2
+  },
+  {
+   "nummer": "274-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-70",
+   "anzahl": 1
+  },
+  {
+   "nummer": "511-10",
+   "anzahl": 1
+  },
+  {
+   "nummer": "531-20",
+   "anzahl": 1
+  }
+ ],
+ "CII-1": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "CII-2": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "CII-3": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ],
+ "CII-4": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "131",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "276",
+   "anzahl": 1
+  },
+  {
+   "nummer": "282",
+   "anzahl": 1
+  }
+ ],
+ "CII-5": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  }
+ ],
+ "CII-6": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  }
+ ],
+ "CII-7": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  },
+  {
+   "nummer": "274-50",
+   "anzahl": 1
+  },
+  {
+   "nummer": "278-50",
+   "anzahl": 1
+  }
+ ],
+ "CII-8": [
+  {
+   "nummer": "123",
+   "anzahl": 1
+  }
+ ]
+}
