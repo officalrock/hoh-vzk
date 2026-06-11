@@ -9,7 +9,7 @@ import { fileURLToPath, URL } from "node:url";
 // dupliziert.
 export default defineConfig({
   plugins: [react()],
-  // Verhindert doppelte React-Kopien (z. B. über transitive Abhängigkeiten).
+  base: process.env.GITHUB_ACTIONS ? "/hoh-vzk/" : "/",
   resolve: { dedupe: ["react", "react-dom"] },
   publicDir: fileURLToPath(new URL("../assets", import.meta.url)),
   build: {
