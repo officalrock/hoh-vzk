@@ -67,9 +67,9 @@ export function usePackingList(projectId = null) {
   );
 
   const addMaterial = useCallback(
-    (name, einheit, anzahl = 1, aufstellort = 'innerorts', aufstellhoehe = 2.0) => {
+    (name, einheit, anzahl = 1, aufstellort = 'innerorts', aufstellhoehe = 2.0, fussplattenJe = 0) => {
       if (!list) return;
-      list.addMaterial(name, einheit, anzahl, aufstellort, aufstellhoehe);
+      list.addMaterial(name, einheit, anzahl, aufstellort, aufstellhoehe, fussplattenJe);
       refresh();
     },
     [list, refresh]

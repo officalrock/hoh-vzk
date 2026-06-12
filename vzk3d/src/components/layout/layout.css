@@ -69,9 +69,20 @@
 .topbar__nav {
   display: flex;
   gap: 4px;
+  /* min-width:0 erlaubt Schrumpfen unter Inhaltsbreite -> Nav scrollt intern
+     statt über den Header hinauszulaufen (Mobil). */
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.topbar__nav::-webkit-scrollbar {
+  display: none;
 }
 .navlink {
   min-height: var(--touch-min);
+  flex: 0 0 auto;
+  white-space: nowrap;
   display: inline-flex;
   align-items: center;
   padding: 0 14px;
@@ -126,5 +137,14 @@
   }
   .navlink {
     padding: 0 11px;
+  }
+  /* Marke nicht über die halbe Leiste; Rest gehört der scrollbaren Nav. */
+  .topbar__brand {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .topbar__inner {
+    gap: 8px;
+    padding: 0 10px;
   }
 }

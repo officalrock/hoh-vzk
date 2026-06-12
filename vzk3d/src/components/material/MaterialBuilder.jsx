@@ -36,6 +36,28 @@ const SPERR_PRESETS = [
   { name: "Warnleuchte", einheit: "Stk.", fussplattenJe: 0 },
 ];
 
+// RSA-21-Regelabstände (m) je Straßenart für die Mengenberechnung aus
+// Baustellenlänge. WICHTIG: vor Live-Einsatz gegen amtliche RSA 21 prüfen.
+const ABSTAND = {
+  leitbake: { innerorts: 9, landstrasse: 12, autobahn: 20 },
+  leitkegel: { innerorts: 5, landstrasse: 9, autobahn: 10 },
+};
+
+// Sperrmaterial-Typ aus der Bezeichnung ableiten (nur Bake/Kegel sind
+// längenabhängig; alles andere bleibt manuell).
+function sperrTyp(name = "") {
+  if (/leitbake/i.test(name)) return "leitbake";
+  if (/leitkegel/i.test(name)) return "leitkegel";
+  return null;
+}
+
+// Anzahl = (ceil(Länge / Abstand) + 1) * Seiten. null = nicht automatisch.
+function autoAnzahl(typ, strassenart, laenge, seiten) {
+  const abst = ABSTAND[typ]?.[strassenart];
+  if (!abst || !(laenge > 0)) return null;
+  return (Math.ceil(laenge / abst) + 1) * (seiten || 1);
+}
+
 function load(key) {
   try {
     const raw = localStorage.getItem(key);
@@ -52,6 +74,8 @@ function ausSeed(seed, strassenart) {
   const basis = {
     ort: strassenart === "innerorts" ? "innerorts" : "ausserorts",
     aufstellhoehe: 2.0,
+    baustellenlaenge: "",
+    seiten: 1,
     signs: [],
     sperr: [],
   };
@@ -156,7 +180,24 @@ export function MaterialBuilder({
   const signRows = useMemo(() => state.signs.map(calcRow), [state.signs, calcRow]);
   const wunschtextRows = useMemo(() => wunschtextSigns.map(calcRow), [wunschtextSigns, calcRow]);
 
-  const sperrPlatten = state.sperr.reduce(
+  // Sperrmaterial mit RSA-21-Mengenberechnung aus Baustellenlänge.
+  // Bake/Kegel werden automatisch gerechnet, solange die Zeile nicht manuell
+  // überschrieben wurde (r.manuell). Abstand kommt aus der Straßenart.
+  const laenge = parseFloat(state.baustellenlaenge) || 0;
+  const seiten = parseInt(state.seiten, 10) || 1;
+  const sperrRows = state.sperr.map((r) => {
+    const typ = sperrTyp(r.name);
+    const auto = r.manuell ? null : autoAnzahl(typ, strassenart, laenge, seiten);
+    return {
+      ...r,
+      typ,
+      abstand: ABSTAND[typ]?.[strassenart] || null,
+      autoAktiv: auto != null,
+      anzahl: auto != null ? auto : r.anzahl,
+    };
+  });
+
+  const sperrPlatten = sperrRows.reduce(
     (s, r) => s + (parseInt(r.fussplattenJe, 10) || 0) * (parseInt(r.anzahl, 10) || 0),
     0
   );
@@ -194,7 +235,7 @@ export function MaterialBuilder({
       ]),
       [],
       ["Sperrmaterial", "Einheit", "Anzahl", "Fussplatten_je", "Fussplatten_gesamt"],
-      ...state.sperr.map((r) => [
+      ...sperrRows.map((r) => [
         r.name,
         r.einheit,
         String(r.anzahl),
@@ -233,6 +274,25 @@ export function MaterialBuilder({
             value={state.aufstellhoehe}
             onChange={(e) => setField({ aufstellhoehe: e.target.value })}
           />
+        </label>
+        <label className="mat__field">
+          Baustellenlänge (m)
+          <input
+            type="number"
+            step="1"
+            min="0"
+            placeholder="0"
+            value={state.baustellenlaenge ?? ""}
+            onChange={(e) => setField({ baustellenlaenge: e.target.value })}
+            title="Leitbaken/Leitkegel werden nach RSA 21 automatisch berechnet"
+          />
+        </label>
+        <label className="mat__field">
+          Aufstellung
+          <select value={state.seiten ?? 1} onChange={(e) => setField({ seiten: e.target.value })}>
+            <option value="1">einseitig</option>
+            <option value="2">doppelseitig</option>
+          </select>
         </label>
       </div>
 
@@ -340,7 +400,7 @@ export function MaterialBuilder({
         </div>
         <div className="mat__rows">
           {state.sperr.length === 0 && <div className="mat__empty">Leitbaken, Schranken, Leuchten … per Plus erfassen.</div>}
-          {state.sperr.map((r) => (
+          {sperrRows.map((r) => (
             <div className="mat__row" key={r.key}>
               <span className="mat__thumb" aria-hidden style={{ fontSize: 18 }}>
                 ⛟
@@ -365,6 +425,21 @@ export function MaterialBuilder({
                       aria-label="Fußplatten je Stück"
                     />
                   </label>
+                  {r.autoAktiv && (
+                    <span className="mat__autobadge" title={`RSA 21: alle ${r.abstand} m, ${seiten === 2 ? "doppelseitig" : "einseitig"}`}>
+                      auto · RSA 21 ({r.abstand} m)
+                    </span>
+                  )}
+                  {r.manuell && r.typ && laenge > 0 && (
+                    <button
+                      type="button"
+                      className="mat__autoreset"
+                      onClick={() => updSperr(r.key, { manuell: false })}
+                      title="Wieder automatisch nach Baustellenlänge berechnen"
+                    >
+                      ↺ auto
+                    </button>
+                  )}
                 </div>
               </div>
               <div className="mat__rowctrl">
@@ -373,7 +448,7 @@ export function MaterialBuilder({
                   type="number"
                   min="0"
                   value={r.anzahl}
-                  onChange={(e) => updSperr(r.key, { anzahl: e.target.value })}
+                  onChange={(e) => updSperr(r.key, { anzahl: e.target.value, manuell: true })}
                   aria-label="Anzahl"
                 />
                 <span className="mat__plates">

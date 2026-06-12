@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X } from '@phosphor-icons/react';
+import { X, Plus } from '@phosphor-icons/react';
 import { usePackingList } from '../../hooks/usePackingList';
 import { useProject } from '../../hooks/useProject';
 import { generatePackingListPDF, downloadPDF } from '../../lib/pdf-export';
@@ -8,6 +8,15 @@ import PackingListItemRow from './PackingListItemRow';
 import './packing-list-drawer.css';
 
 const SETTINGS_KEY = 'vzk-packliste-settings';
+
+// Häufiges Sperrmaterial als Schnellauswahl (fussplattenJe = K1-Fußplatten je Stück).
+const MATERIAL_PRESETS = [
+  { name: 'Leitbake (Z 605)', einheit: 'Stk.', fussplattenJe: 1 },
+  { name: 'Leitkegel (Z 610)', einheit: 'Stk.', fussplattenJe: 0 },
+  { name: 'Absperrschranke (Z 600)', einheit: 'Stk.', fussplattenJe: 2 },
+  { name: 'Fahrbare Absperrtafel', einheit: 'Stk.', fussplattenJe: 0 },
+  { name: 'Warnleuchte', einheit: 'Stk.', fussplattenJe: 0 },
+];
 
 function ladeSettings() {
   try {
@@ -24,6 +33,7 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = 'global
   const {
     positionen,
     removeSign,
+    addMaterial,
     removeMaterial,
     updateSignQuantity,
     updateMaterialQuantity,
@@ -32,6 +42,26 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = 'global
   } = usePackingList(projectId);
   const { activeProject } = useProject();
   const [settings, setSettings] = useState(ladeSettings);
+  const [addOpen, setAddOpen] = useState(false);
+  const [eigenName, setEigenName] = useState('');
+
+  const ergaenze = (preset) => {
+    addMaterial(
+      preset.name,
+      preset.einheit || 'Stk.',
+      1,
+      settings.aufstellort,
+      settings.aufstellhoehe,
+      preset.fussplattenJe || 0
+    );
+  };
+
+  const ergaenzeEigen = () => {
+    const name = eigenName.trim();
+    if (!name) return;
+    ergaenze({ name, einheit: 'Stk.', fussplattenJe: 0 });
+    setEigenName('');
+  };
 
   const updateSettings = (patch) => {
     const next = { ...settings, ...patch };
@@ -64,10 +94,43 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = 'global
     <div className="packing-list-drawer">
       <div className="packing-list-header">
         <h2>Packliste ({positionen.length})</h2>
-        <button className="btn-close" onClick={onClose} aria-label="Close">
-          <X size={24} />
-        </button>
+        <div className="packing-list-header__actions">
+          <button
+            className={'btn-add' + (addOpen ? ' btn-add--active' : '')}
+            onClick={() => setAddOpen((v) => !v)}
+            aria-label="Material ergänzen"
+            aria-expanded={addOpen}
+            title="Material ergänzen"
+          >
+            <Plus size={22} weight="bold" />
+          </button>
+          <button className="btn-close" onClick={onClose} aria-label="Close">
+            <X size={24} />
+          </button>
+        </div>
       </div>
+
+      {addOpen && (
+        <div className="packing-list-add">
+          <div className="packing-list-add__chips">
+            {MATERIAL_PRESETS.map((p) => (
+              <button key={p.name} className="add-chip" onClick={() => ergaenze(p)}>
+                <Plus size={14} weight="bold" /> {p.name}
+              </button>
+            ))}
+          </div>
+          <div className="packing-list-add__eigen">
+            <input
+              value={eigenName}
+              placeholder="Eigenes Material …"
+              onChange={(e) => setEigenName(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && ergaenzeEigen()}
+              aria-label="Eigenes Material"
+            />
+            <button className="btn btn-primary" onClick={ergaenzeEigen}>Hinzufügen</button>
+          </div>
+        </div>
+      )}
 
       {positionen.length === 0 ? (
         <div className="packing-list-empty">

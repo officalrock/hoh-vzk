@@ -31,6 +31,15 @@
     grid-auto-columns: minmax(280px, 1fr);
   }
 }
+/* Mobil: Karte passt sich der Bildschirmbreite an (eine Karte sichtbar,
+   nächste lugt hervor) statt fixer 248px, die über den Rand laufen. */
+@media (max-width: 560px) {
+  .catscroll__rail {
+    /* Feste vw-Breite (Scroll-Container ist indefinit -> % kollabiert).
+       Eine Karte ~Bildschirmbreite, nächste lugt hervor. */
+    grid-auto-columns: 80vw;
+  }
+}
 
 .catpanel {
   scroll-snap-align: start;
