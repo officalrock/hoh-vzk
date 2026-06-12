@@ -102,6 +102,12 @@ export function usePackingList(projectId = null) {
     [list, refresh]
   );
 
+  const clearAll = useCallback(() => {
+    if (!list) return;
+    list.clear();
+    refresh();
+  }, [list, refresh]);
+
   const importRegelplan = useCallback(
     (regelplan) => {
       if (!list) return;
@@ -125,6 +131,7 @@ export function usePackingList(projectId = null) {
     removeMaterial,
     updateMaterialQuantity,
     setMaterialAufstellort,
+    clearAll,
     importRegelplan,
     toCSV,
   };

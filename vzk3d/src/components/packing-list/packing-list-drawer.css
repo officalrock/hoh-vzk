@@ -308,6 +308,25 @@
   padding: 4px;
 }
 
+.packing-list-clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, #e25b5b 45%, transparent);
+  background: color-mix(in srgb, #e25b5b 12%, transparent);
+  color: #e25b5b;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.packing-list-clear:hover {
+  background: color-mix(in srgb, #e25b5b 20%, transparent);
+}
+
 .packing-list-footer {
   display: flex;
   gap: 8px;

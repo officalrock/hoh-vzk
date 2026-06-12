@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Plus } from '@phosphor-icons/react';
+import { X, Plus, Trash } from '@phosphor-icons/react';
 import { usePackingList } from '../../hooks/usePackingList';
 import { useProject } from '../../hooks/useProject';
 import { generatePackingListPDF, downloadPDF } from '../../lib/pdf-export';
@@ -38,6 +38,7 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = null })
     updateSignQuantity,
     updateMaterialQuantity,
     setMaterialAufstellort,
+    clearAll,
     toCSV,
   } = usePackingList(projectId);
   const { activeProject } = useProject();
@@ -61,6 +62,12 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = null })
     if (!name) return;
     ergaenze({ name, einheit: 'Stk.', fussplattenJe: 0 });
     setEigenName('');
+  };
+
+  const handleClear = () => {
+    if (window.confirm(`Ganze Packliste (${positionen.length} Positionen) löschen? Das kann nicht rückgängig gemacht werden.`)) {
+      clearAll();
+    }
   };
 
   const updateSettings = (patch) => {
@@ -192,6 +199,10 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = null })
           <div className="packing-list-total">
             K1-Fußplatten gesamt <strong>{gesamtFussplatten}</strong>
           </div>
+
+          <button className="packing-list-clear" onClick={handleClear}>
+            <Trash size={16} weight="bold" /> Packliste leeren
+          </button>
 
           <div className="packing-list-footer">
             <button className="btn btn-primary" onClick={handleExportPDF}>PDF</button>

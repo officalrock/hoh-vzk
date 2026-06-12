@@ -105,6 +105,16 @@ export class Projects {
       this.saveActive();
     }
     this.saveAll();
+    // Zugehörige Packliste mitlöschen (Key: vzk-packliste-<projectId>).
+    try {
+      const key = 'vzk-packliste-' + projectId;
+      localStorage.removeItem(key);
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new CustomEvent('packliste-changed', { detail: { key } }));
+      }
+    } catch (e) {
+      console.error('Failed to delete packing list for project:', e);
+    }
   }
 
   /**
