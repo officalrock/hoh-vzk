@@ -9,7 +9,7 @@ const SEITE = 48; // Karten pro Nachladeschritt – Grid bleibt schnell.
  * weitere beim Scrollen (IntersectionObserver). So bleibt der Katalog auch
  * bei 1700+ Zeichen flüssig.
  */
-export function SignGrid({ zeichen, onOpen }) {
+export function SignGrid({ zeichen, onOpen, onAddToPacking }) {
   const [anzahl, setAnzahl] = useState(SEITE);
   const sentinel = useRef(null);
 
@@ -46,7 +46,7 @@ export function SignGrid({ zeichen, onOpen }) {
     <>
       <div className="grid">
         {sichtbar.map((z) => (
-          <SignCard key={z.nummer} zeichen={z} onOpen={onOpen} />
+          <SignCard key={z.nummer} zeichen={z} onOpen={onOpen} onAddToPacking={onAddToPacking} />
         ))}
       </div>
       {anzahl < zeichen.length && <div ref={sentinel} className="sentinel" aria-hidden />}

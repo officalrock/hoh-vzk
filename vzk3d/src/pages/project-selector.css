@@ -1,0 +1,103 @@
+/* Projektauswahl-Landingpage */
+
+.project-selector-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+.project-selector-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.project-selector-header h1 {
+  margin: 0 0 8px;
+}
+.project-selector-header p {
+  color: var(--text-leise, #8a93a3);
+}
+
+.project-selector-section {
+  margin-bottom: 32px;
+}
+.project-selector-section h2 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: var(--text-leise, #8a93a3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-lg { padding: 14px 22px; font-size: 1rem; }
+.btn-primary { background: var(--accent, #2f6df6); color: #fff; }
+.btn-secondary { background: var(--panel-2, #252b34); color: var(--text, #dfe7f2); border: 1px solid var(--border, #2c333d); }
+.btn-outline { background: transparent; border: 1px solid var(--accent, #2f6df6); color: var(--accent-text, #6ea0ff); }
+.btn-danger-outline { background: transparent; border: 1px solid #e25b5b; color: #e25b5b; }
+
+.project-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.project-form input {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #2c333d);
+  background: var(--panel-2, #252b34);
+  color: var(--text, #dfe7f2);
+}
+
+.project-list {
+  display: grid;
+  gap: 10px;
+}
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border: 1px solid var(--border, #2c333d);
+  border-radius: 10px;
+  background: var(--panel, #1c2128);
+}
+.project-card-content h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+.project-card-content small {
+  display: block;
+  color: var(--text-leise, #8a93a3);
+  font-size: 0.78rem;
+}
+.project-card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Standort-Formular (ProjectForm) */
+.form-group { margin-bottom: 12px; }
+.form-group label { display: block; font-size: 0.82rem; margin-bottom: 4px; color: var(--text-leise, #8a93a3); }
+.form-group input {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #2c333d);
+  background: var(--panel-2, #252b34);
+  color: var(--text, #dfe7f2);
+}
+.form-group-row { display: flex; gap: 12px; }
+.form-fieldset { border: 1px solid var(--border, #2c333d); border-radius: 10px; padding: 12px 14px; margin: 12px 0; }
+.form-fieldset legend { padding: 0 6px; color: var(--text-leise, #8a93a3); font-size: 0.82rem; }
+.form-actions { display: flex; gap: 8px; margin-top: 12px; }

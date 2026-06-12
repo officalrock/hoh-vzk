@@ -3,7 +3,7 @@ import { brandingUrl } from "../../utils/assetPath.js";
 import "./layout.css";
 
 export function TopBar() {
-  const { view, gotoDashboard, gotoKatalog, gotoRegelplaene } = useView();
+  const { view, gotoDashboard, gotoKatalog, gotoRegelplaene, gotoProjekte, gotoAuswertung } = useView();
   const aktiv = view.name;
 
   return (
@@ -38,6 +38,20 @@ export function TopBar() {
             onClick={() => gotoRegelplaene()}
           >
             Regelpläne
+          </button>
+          <button
+            className={"navlink" + (aktiv === "auswertung" ? " navlink--active" : "")}
+            aria-current={aktiv === "auswertung" ? "page" : undefined}
+            onClick={gotoAuswertung}
+          >
+            Finder
+          </button>
+          <button
+            className={"navlink" + (aktiv === "projekte" ? " navlink--active" : "")}
+            aria-current={aktiv === "projekte" ? "page" : undefined}
+            onClick={gotoProjekte}
+          >
+            Projekte
           </button>
         </nav>
       </div>

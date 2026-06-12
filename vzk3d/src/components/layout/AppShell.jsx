@@ -1,4 +1,5 @@
 import { TopBar } from "./TopBar.jsx";
+import PackingListFab from "../packing-list/PackingListFab.jsx";
 import "./layout.css";
 
 export function AppShell({ children }) {
@@ -12,6 +13,7 @@ export function AppShell({ children }) {
           Angaben ohne Gewähr; maßgeblich sind die amtlichen Vorschriften.
         </div>
       </footer>
+      <PackingListFab />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { Button } from "../components/ui/Button.jsx";
 import { Canvas3DBoundary } from "../three/Canvas3DBoundary.jsx";
 import { assetUrl } from "../utils/assetPath.js";
 import { WUNSCHTEXT_KEY, isPlatzhalter, loadWunschtexte, saveWunschtext, removeWunschtext } from "../lib/wunschtexte.js";
+import { wunschtextDataUrl } from "../lib/wunschtext-canvas.js";
 import zeichen from "../data/zeichen.json";
 import "./detail.css";
 
@@ -21,6 +22,19 @@ export function SignDetail({ nummer }) {
   const platzhalter = z && isPlatzhalter(z.nummer);
   const [wunschtext, setWunschtext] = useState(() => platzhalter ? (loadWunschtexte()[nummer] || "") : "");
   const [saved, setSaved] = useState(!!wunschtext);
+
+  // US4: 2D-Vorschau mit Wunschtext (DataURL aus Canvas). Nur fuer Platzhalter.
+  const [previewUrl, setPreviewUrl] = useState(null);
+  useEffect(() => {
+    if (!platzhalter || !z) { setPreviewUrl(null); return; }
+    const aktiv = saved ? wunschtext : (loadWunschtexte()[nummer] || "");
+    if (!aktiv || !aktiv.trim()) { setPreviewUrl(null); return; }
+    let abbruch = false;
+    wunschtextDataUrl(assetUrl(z.bild), aktiv)
+      .then((url) => { if (!abbruch) setPreviewUrl(url); })
+      .catch(() => { if (!abbruch) setPreviewUrl(null); });
+    return () => { abbruch = true; };
+  }, [platzhalter, z, nummer, wunschtext, saved]);
 
   if (!z) {
     return (
@@ -37,6 +51,8 @@ export function SignDetail({ nummer }) {
   }
 
   const bildUrl = assetUrl(z.bild);
+  // US4: bei gesetztem Wunschtext die Canvas-Vorschau zeigen.
+  const vorschauUrl = previewUrl || bildUrl;
 
   return (
     <div className="container">
@@ -71,11 +87,11 @@ export function SignDetail({ nummer }) {
                 <Suspense
                   fallback={
                     <div className="detail__static">
-                      <img src={bildUrl} alt={`Zeichen ${z.nummer} – ${z.name}`} />
+                      <img src={vorschauUrl} alt={`Zeichen ${z.nummer} – ${z.name}`} />
                     </div>
                   }
                 >
-                  <SignScene src={bildUrl} lowPower={tier.lowPower} />
+                  <SignScene src={bildUrl} lowPower={tier.lowPower} wunschtext={platzhalter ? wunschtext : ""} />
                 </Suspense>
               </Canvas3DBoundary>
               <span className="detail__stage-hint glass-control">
@@ -84,7 +100,7 @@ export function SignDetail({ nummer }) {
             </div>
           ) : (
             <div className="detail__static">
-              <img src={bildUrl} alt={`Zeichen ${z.nummer} – ${z.name}`} />
+              <img src={vorschauUrl} alt={`Zeichen ${z.nummer} – ${z.name}`} />
             </div>
           )}
         </div>
