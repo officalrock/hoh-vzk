@@ -53,9 +53,12 @@ export class PackingList {
   /**
    * Add sign to packing list. If already exists, increment quantity
    */
-  addSign(zeichennummer, bezeichnung, anzahl = 1, bild = '') {
+  addSign(zeichennummer, bezeichnung, anzahl = 1, bild = '', wunschtext = null) {
+    // Merge nach Nummer UND Wunschtext: gleiches Zeichen mit anderem Text
+    // bleibt eigene Position.
+    const wt = wunschtext || null;
     const existing = this.positionen.find(
-      (p) => p.type === 'sign' && p.zeichennummer === zeichennummer
+      (p) => p.type === 'sign' && p.zeichennummer === zeichennummer && (p.wunschtext || null) === wt
     );
     if (existing) {
       existing.stueckzahl += anzahl;
@@ -67,7 +70,7 @@ export class PackingList {
         bezeichnung,
         stueckzahl: anzahl,
         bild,
-        wunschtext: null,
+        wunschtext: wt,
         quelle: 'katalog',
       });
     }
@@ -75,25 +78,27 @@ export class PackingList {
   }
 
   /**
-   * Remove sign from packing list
+   * Remove sign from packing list (nummer + optional Wunschtext als Key).
    */
-  removeSign(zeichennummer) {
+  removeSign(zeichennummer, wunschtext = null) {
+    const wt = wunschtext || null;
     this.positionen = this.positionen.filter(
-      (p) => !(p.type === 'sign' && p.zeichennummer === zeichennummer)
+      (p) => !(p.type === 'sign' && p.zeichennummer === zeichennummer && (p.wunschtext || null) === wt)
     );
     this.save();
   }
 
   /**
-   * Update quantity of sign
+   * Update quantity of sign (nummer + optional Wunschtext als Key).
    */
-  updateSignQuantity(zeichennummer, anzahl) {
+  updateSignQuantity(zeichennummer, anzahl, wunschtext = null) {
+    const wt = wunschtext || null;
     const pos = this.positionen.find(
-      (p) => p.type === 'sign' && p.zeichennummer === zeichennummer
+      (p) => p.type === 'sign' && p.zeichennummer === zeichennummer && (p.wunschtext || null) === wt
     );
     if (pos) {
       if (anzahl <= 0) {
-        this.removeSign(zeichennummer);
+        this.removeSign(zeichennummer, wt);
       } else {
         pos.stueckzahl = anzahl;
         this.save();

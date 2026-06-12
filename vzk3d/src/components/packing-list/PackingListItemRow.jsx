@@ -1,8 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Trash, Minus, Plus } from '@phosphor-icons/react';
 import { assetUrl } from '../../utils/assetPath.js';
 import { fussplattenGesamt } from '../../lib/packing-list.js';
 import { signWindlast } from '../../lib/packing-windlast.js';
+import { wunschtextDataUrl } from '../../lib/wunschtext-canvas.js';
 import zeichenData from '../../data/zeichen.json';
 
 // Lookup nummer → bild-Pfad (richtige Endung .svg/.png aus den Daten).
@@ -35,14 +36,25 @@ export default function PackingListItemRow({
     [position.bild, position.zeichennummer]
   );
 
+  // Wunschtext aufs Schildbild rendern (Canvas-DataURL) für Packlisten-Thumbnail.
+  const [wunschBild, setWunschBild] = useState(null);
+  useEffect(() => {
+    if (isMaterial || !position.wunschtext || !bild) { setWunschBild(null); return; }
+    let abbruch = false;
+    wunschtextDataUrl(assetUrl(bild), position.wunschtext)
+      .then((url) => { if (!abbruch) setWunschBild(url); })
+      .catch(() => { if (!abbruch) setWunschBild(null); });
+    return () => { abbruch = true; };
+  }, [isMaterial, position.wunschtext, bild]);
+
   return (
     <div className="packing-list-item">
       {/* Image preview for signs */}
       {!isMaterial && (
         <div className="item-image">
-          {bild ? (
+          {wunschBild || bild ? (
             <img
-              src={assetUrl(bild)}
+              src={wunschBild || assetUrl(bild)}
               alt={position.bezeichnung}
               loading="lazy"
               onError={(e) => { e.target.style.visibility = 'hidden'; }}
