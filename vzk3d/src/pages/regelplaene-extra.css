@@ -1,0 +1,20 @@
+/* Straßenklasse-Empfehlungsleiste (US7) */
+.rp-empfehlung {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border, #2c333d);
+  border-radius: 10px;
+  background: var(--panel, #1c2128);
+  font-size: 0.9rem;
+}
+.rp-empfehlung .chip { cursor: pointer; }
+.rp-fallback {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}

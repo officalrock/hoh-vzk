@@ -1,1 +1,3196 @@
-[{"id": "BI-1", "nr": "B I / 1", "teil": "B", "abschnitt": "I", "nrNum": 1, "strassenart": "innerorts", "titel": "Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit geringer Einengung Längsabsperrung zur …", "bild": "regelplaene/png/BI-1.png", "pdf": "regelplaene/Regelplan B I-1.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-2", "nr": "B I / 2", "teil": "B", "abschnitt": "I", "nrNum": 2, "strassenart": "innerorts", "titel": "Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit deutlicher Einengung (analog bei …", "bild": "regelplaene/png/BI-2.png", "pdf": "regelplaene/Regelplan B I-2.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-3", "nr": "B I / 3", "teil": "B", "abschnitt": "I", "nrNum": 3, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit geringer Einengung (analog bei Richtungsfahrbahn oder Einbahnstraße) Längsabsperrung zur Fahrbahn – …", "bild": "regelplaene/png/BI-3.png", "pdf": "regelplaene/Regelplan B I-3.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-4", "nr": "B I / 4", "teil": "B", "abschnitt": "I", "nrNum": 4, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit Verkehrsführung über Behelfsfahrstreifen (analog bei Richtungsfahrbahn) Querabsperrung durch …", "bild": "regelplaene/png/BI-4.png", "pdf": "regelplaene/Regelplan B I-4.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-5", "nr": "B I / 5", "teil": "B", "abschnitt": "I", "nrNum": 5, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage Längsabsperrung zur Fahrbahn durch …", "bild": "regelplaene/png/BI-5.png", "pdf": "regelplaene/Regelplan B I-5.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-6", "nr": "B I / 6", "teil": "B", "abschnitt": "I", "nrNum": 6, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerführung Querabsperrung …", "bild": "regelplaene/png/BI-6.png", "pdf": "regelplaene/Regelplan B I-6.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-7", "nr": "B I / 7", "teil": "B", "abschnitt": "I", "nrNum": 7, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit Arbeitsstelle in Fahrbahnmitte Querabsperrung durch einseitige Leitbaken Abstand längs 1 – 2 m quer …", "bild": "regelplaene/png/BI-7.png", "pdf": "regelplaene/Regelplan B I-7.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-8", "nr": "B I / 8", "teil": "B", "abschnitt": "I", "nrNum": 8, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit beidseitiger Einengung mit geringer Verkehrsstärke Verkehrsregelung durch Verkehrszeichen …", "bild": "regelplaene/png/BI-8.png", "pdf": "regelplaene/Regelplan B I-8.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "208", "anzahl": 1}, {"nummer": "308", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-9", "nr": "B I / 9", "teil": "B", "abschnitt": "I", "nrNum": 9, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Sperrung eines rechten Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …", "bild": "regelplaene/png/BI-9.png", "pdf": "regelplaene/Regelplan B I-9.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "501-16", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-10", "nr": "B I / 10", "teil": "B", "abschnitt": "I", "nrNum": 10, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Sperrung eines linken Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …", "bild": "regelplaene/png/BI-10.png", "pdf": "regelplaene/Regelplan B I-10.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 2}, {"nummer": "511-21", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-11", "nr": "B I / 11", "teil": "B", "abschnitt": "I", "nrNum": 11, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Sperrung eines rechten Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …", "bild": "regelplaene/png/BI-11.png", "pdf": "regelplaene/Regelplan B I-11.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "531-10", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-12", "nr": "B I / 12", "teil": "B", "abschnitt": "I", "nrNum": 12, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Sperrung eines linken Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …", "bild": "regelplaene/png/BI-12.png", "pdf": "regelplaene/Regelplan B I-12.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 2}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}]}}, {"id": "BI-13", "nr": "B I / 13", "teil": "B", "abschnitt": "I", "nrNum": 13, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Sperrung der Fahrstreifen einer Richtung Querabsperrung durch Absperrschrankengitter Längsabsperrung …", "bild": "regelplaene/png/BI-13.png", "pdf": "regelplaene/Regelplan B I-13.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-14", "nr": "B I / 14", "teil": "B", "abschnitt": "I", "nrNum": 14, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Einbahnstraßenregelung [ ] Einrichtung einer Umleitung [ ] Anpassung der …", "bild": "regelplaene/png/BI-14.png", "pdf": "regelplaene/Regelplan B I-14.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 2}, {"nummer": "214-10", "anzahl": 1}, {"nummer": "214-30", "anzahl": 1}, {"nummer": "220-10", "anzahl": 1}, {"nummer": "220-20", "anzahl": 2}, {"nummer": "267", "anzahl": 2}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-15", "nr": "B I / 15", "teil": "B", "abschnitt": "I", "nrNum": 15, "strassenart": "innerorts", "titel": "Sperrung einer Straße [ ] Einrichtung einer Umleitung [ ] Anpassung der vorhandenen Verkehrszeichen gemäß Eintragung …", "bild": "regelplaene/png/BI-15.png", "pdf": "regelplaene/Regelplan B I-15.pdf", "material": {"zeichen": [{"nummer": "357", "anzahl": 1}, {"nummer": "357-50", "anzahl": 1}, {"nummer": "357-51", "anzahl": 1}, {"nummer": "357-52", "anzahl": 1}, {"nummer": "214", "anzahl": 1}, {"nummer": "214-10", "anzahl": 1}, {"nummer": "214-30", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605)", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 5}]}}, {"id": "BI-16", "nr": "B I / 16", "teil": "B", "abschnitt": "I", "nrNum": 16, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung [ ] Einrichtung einer …", "bild": "regelplaene/png/BI-16.png", "pdf": "regelplaene/Regelplan B I-16.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 5 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BI-17", "nr": "B I / 17", "teil": "B", "abschnitt": "I", "nrNum": 17, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung [ ] Einrichtung einer …", "bild": "regelplaene/png/BI-17.png", "pdf": "regelplaene/Regelplan B I-17.pdf", "material": {"zeichen": [{"nummer": "357", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "214-30", "anzahl": 1}, {"nummer": "357-51", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 5 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BI-18", "nr": "B I / 18", "teil": "B", "abschnitt": "I", "nrNum": 18, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und Einmündung Verkehrsregelung durch Lichtzeichenanlage [ ] Einrichtung einer …", "bild": "regelplaene/png/BI-18.png", "pdf": "regelplaene/Regelplan B I-18.pdf", "material": {"zeichen": [{"nummer": "357", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "125", "anzahl": 1}, {"nummer": "220-10", "anzahl": 1}, {"nummer": "220-20", "anzahl": 1}, {"nummer": "267", "anzahl": 2}, {"nummer": "357-51", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 5}]}}, {"id": "BI-19", "nr": "B I / 19", "teil": "B", "abschnitt": "I", "nrNum": 19, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und Einmündung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung …", "bild": "regelplaene/png/BI-19.png", "pdf": "regelplaene/Regelplan B I-19.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BII-1", "nr": "B II / 1", "teil": "B", "abschnitt": "II", "nrNum": 1, "strassenart": "innerorts", "titel": "Paralleler Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe Einengung der Fahrbahn (bei …", "bild": "regelplaene/png/BII-1.png", "pdf": "regelplaene/Regelplan B II-1.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BII-2", "nr": "B II / 2", "teil": "B", "abschnitt": "II", "nrNum": 2, "strassenart": "innerorts", "titel": "Paralleler Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe Einengung der Fahrbahn (bei …", "bild": "regelplaene/png/BII-2.png", "pdf": "regelplaene/Regelplan B II-2.pdf", "material": {"zeichen": [{"nummer": "239", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "240", "anzahl": 1}, {"nummer": "241-30", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BII-3", "nr": "B II / 3", "teil": "B", "abschnitt": "II", "nrNum": 3, "strassenart": "innerorts", "titel": "Nicht benutzungspflichtiger getrennter Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe …", "bild": "regelplaene/png/BII-3.png", "pdf": "regelplaene/Regelplan B II-3.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "239", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605)", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-4", "nr": "B II / 4", "teil": "B", "abschnitt": "II", "nrNum": 4, "strassenart": "innerorts", "titel": "Gehwegsperrung Notweg auf der Fahrbahn Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit …", "bild": "regelplaene/png/BII-4.png", "pdf": "regelplaene/Regelplan B II-4.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-5", "nr": "B II / 5", "teil": "B", "abschnitt": "II", "nrNum": 5, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und teilweiser Sperrung eines Gehweges Verkehrsregelung durch Licht …", "bild": "regelplaene/png/BII-5.png", "pdf": "regelplaene/Regelplan B II-5.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BII-6", "nr": "B II / 6", "teil": "B", "abschnitt": "II", "nrNum": 6, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerführung Querabsperrung …", "bild": "regelplaene/png/BII-6.png", "pdf": "regelplaene/Regelplan B II-6.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-7", "nr": "B II / 7", "teil": "B", "abschnitt": "II", "nrNum": 7, "strassenart": "innerorts", "titel": "Sperrung des nicht benutzungspflichtigen getrennten Geh- und Radweges. Notweg über Fahrbahn Verkehrsführung über …", "bild": "regelplaene/png/BII-7.png", "pdf": "regelplaene/Regelplan B II-7.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "239", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-8", "nr": "B II / 8", "teil": "B", "abschnitt": "II", "nrNum": 8, "strassenart": "innerorts", "titel": "Sperrung des getrennten Gehund Radweges Notweg über Fahrbahn Halbseitige Sperrung der Fahrbahn Verkehrsregelung durch …", "bild": "regelplaene/png/BII-8.png", "pdf": "regelplaene/Regelplan B II-8.pdf", "material": {"zeichen": [{"nummer": "102", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "239", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-9", "nr": "B II / 9", "teil": "B", "abschnitt": "II", "nrNum": 9, "strassenart": "innerorts", "titel": "Sperrung des Gehweges Notweg über Fahrbahn geführt Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich …", "bild": "regelplaene/png/BII-9.png", "pdf": "regelplaene/Regelplan B II-9.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 2}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BII-10", "nr": "B II / 10", "teil": "B", "abschnitt": "II", "nrNum": 10, "strassenart": "innerorts", "titel": "Fußgängerschutztunnel und Baustelleneinrichtung Querabsperrungen durch Absperrschrankengitter mit mindestens 3 einseitigen gelben …", "bild": "regelplaene/png/BII-10.png", "pdf": "regelplaene/Regelplan B II-10.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BIII-1", "nr": "B III / 1", "teil": "B", "abschnitt": "III", "nrNum": 1, "strassenart": "innerorts", "titel": "Vierstreifige Fahrbahn mit Schienenbahn Sperrung des Schienenbahnbereiches einer Fahrtrichtung Längsabsperrung [ ] gelbe …", "bild": "regelplaene/png/BIII-1.png", "pdf": "regelplaene/Regelplan B III-1.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 9 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "BIV-1", "nr": "B IV / 1", "teil": "B", "abschnitt": "IV", "nrNum": 1, "strassenart": "innerorts", "titel": "Arbeitsstelle von kürzerer Dauer mit Einengung eines Fahr streifens Längsabsperrung zur Fahrbahn durch Leitkegel (Höhe min. 0,5 …", "bild": "regelplaene/png/BIV-1.png", "pdf": "regelplaene/Regelplan B IV-1.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}]}}, {"id": "BIV-2", "nr": "B IV / 2", "teil": "B", "abschnitt": "IV", "nrNum": 2, "strassenart": "innerorts", "titel": "Arbeitsstelle von kürzerer Dauer auf Straßen mit V ≤ 50 km/h zul Querabsperrung durch Leitkegel (Höhe min. 0,5 m) …", "bild": "regelplaene/png/BIV-2.png", "pdf": "regelplaene/Regelplan B IV-2.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BIV-3", "nr": "B IV / 3", "teil": "B", "abschnitt": "IV", "nrNum": 3, "strassenart": "innerorts", "titel": "Arbeitsstelle von kürzerer Dauer mit Sperrung des Schienenbahnbereiches Längsabsperrung durch Leitkegel (Höhe min. 0,50 m) …", "bild": "regelplaene/png/BIV-3.png", "pdf": "regelplaene/Regelplan B IV-3.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "BIV-4", "nr": "B IV / 4", "teil": "B", "abschnitt": "IV", "nrNum": 4, "strassenart": "innerorts", "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Arbeitsstelle kürzerer Dauer (nur bei Tageslicht) Längsabsperrung durch Leitkegel (Höhe …", "bild": "regelplaene/png/BIV-4.png", "pdf": "regelplaene/Regelplan B IV-4.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": []}}, {"id": "CI-1", "nr": "C I / 1", "teil": "C", "abschnitt": "I", "nrNum": 1, "strassenart": "landstrasse", "titel": "Bei befestigtem Seitenstreifen und ohne Einengung der Fahrbahn Längsabsperrung durch doppelseitige Leitbaken Abstand max. 12 m 1) …", "bild": "regelplaene/png/CI-1.png", "pdf": "regelplaene/Regelplan C I-1.pdf", "material": {"zeichen": [{"nummer": "274-70", "anzahl": 2}, {"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}]}}, {"id": "CI-2", "nr": "C I / 2", "teil": "C", "abschnitt": "I", "nrNum": 2, "strassenart": "landstrasse", "titel": "Bei befestigtem Seitenstreifen und ohne Einengung der Fahrbahn auf einen Fahrstreifen Querabsperrung durch doppelseitige …", "bild": "regelplaene/png/CI-2.png", "pdf": "regelplaene/Regelplan C I-2.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "276", "anzahl": 2}, {"nummer": "280", "anzahl": 1}, {"nummer": "282", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-3", "nr": "C I / 3", "teil": "C", "abschnitt": "I", "nrNum": 3, "strassenart": "landstrasse", "titel": "Verkehrsführung über Behelfsfahrstreifen Querabsperrung durch einseitige Leitbaken (min. 3) Verziehungsmaß ca. 1: 3 Abstand quer …", "bild": "regelplaene/png/CI-3.png", "pdf": "regelplaene/Regelplan C I-3.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "276", "anzahl": 2}, {"nummer": "280", "anzahl": 1}, {"nummer": "282", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-4", "nr": "C I / 4", "teil": "C", "abschnitt": "I", "nrNum": 4, "strassenart": "landstrasse", "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Verkehrszeichen Querabsperrung durch doppelseitige Leitbaken (min. 3) …", "bild": "regelplaene/png/CI-4.png", "pdf": "regelplaene/Regelplan C I-4.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "276", "anzahl": 1}, {"nummer": "282", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-5", "nr": "C I / 5", "teil": "C", "abschnitt": "I", "nrNum": 5, "strassenart": "landstrasse", "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Licht zeichenanlage Querabsperrung durch doppelseitige Leitbaken (min. 3) …", "bild": "regelplaene/png/CI-5.png", "pdf": "regelplaene/Regelplan C I-5.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "131", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "276", "anzahl": 1}, {"nummer": "282", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-6", "nr": "C I / 6", "teil": "C", "abschnitt": "I", "nrNum": 6, "strassenart": "landstrasse", "titel": "Arbeitsstelle am Übergang vom Außer- in den Innerortsbereich Fahrbahn halbseitig gesperrt Querabsperrung durch doppelseitige …", "bild": "regelplaene/png/CI-6.png", "pdf": "regelplaene/Regelplan C I-6.pdf", "material": {"zeichen": [{"nummer": "276", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "278-50", "anzahl": 1}, {"nummer": "280", "anzahl": 1}, {"nummer": "310", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "CI-7", "nr": "C I / 7", "teil": "C", "abschnitt": "I", "nrNum": 7, "strassenart": "landstrasse", "titel": "Dreistreifige Fahrbahn Sperrung des rechten Fahrstreifens der zweistreifigen Richtung Längsabsperrung durch einseitige Leitbaken …", "bild": "regelplaene/png/CI-7.png", "pdf": "regelplaene/Regelplan C I-7.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "278-50", "anzahl": 1}, {"nummer": "531-10", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-8", "nr": "C I / 8", "teil": "C", "abschnitt": "I", "nrNum": 8, "strassenart": "landstrasse", "titel": "Dreistreifige Fahrbahn Sperrung des linken Fahrstreifens der zweistreifigen Richtung Längsabsperrung durch einseitige Leitbaken …", "bild": "regelplaene/png/CI-8.png", "pdf": "regelplaene/Regelplan C I-8.pdf", "material": {"zeichen": [{"nummer": "278-70", "anzahl": 1}, {"nummer": "274-70", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "278-50", "anzahl": 1}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-9", "nr": "C I / 9", "teil": "C", "abschnitt": "I", "nrNum": 9, "strassenart": "landstrasse", "titel": "Dreistreifige Fahrbahn Sperrung der einstreifigen Richtung Querabsperrung durch einseitige Leitbaken (min. 3) Verziehungsmaß ca. …", "bild": "regelplaene/png/CI-9.png", "pdf": "regelplaene/Regelplan C I-9.pdf", "material": {"zeichen": [{"nummer": "278-70", "anzahl": 1}, {"nummer": "274-70", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "278-50", "anzahl": 1}, {"nummer": "511-10", "anzahl": 1}, {"nummer": "531-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-10", "nr": "C I / 10", "teil": "C", "abschnitt": "I", "nrNum": 10, "strassenart": "landstrasse", "titel": "Arbeitsstellenumfahrung mit Behelfsfahrbahn Querabsperrung durch einseitige Leitbaken mit einseitigen gelben Warnleuchten auf …", "bild": "regelplaene/png/CI-10.png", "pdf": "regelplaene/Regelplan C I-10.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "276", "anzahl": 1}, {"nummer": "282", "anzahl": 1}, {"nummer": "514-10", "anzahl": 1}, {"nummer": "514-20", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605)", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-11", "nr": "C I / 11", "teil": "C", "abschnitt": "I", "nrNum": 11, "strassenart": "landstrasse", "titel": "Dreistreifige Fahrbahn Sperrung des rechten Fahrstreifens der zweistreifigen Richtung Querabsperrung durch einseitige Leitbaken …", "bild": "regelplaene/png/CI-11.png", "pdf": "regelplaene/Regelplan C I-11.pdf", "material": {"zeichen": [{"nummer": "278-70", "anzahl": 1}, {"nummer": "274-70", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 2}, {"nummer": "278-50", "anzahl": 1}, {"nummer": "532-10", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CI-12", "nr": "C I / 12", "teil": "C", "abschnitt": "I", "nrNum": 12, "strassenart": "landstrasse", "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage [ ] Einrichtung einer Umleitung [ ] Anpassung …", "bild": "regelplaene/png/CI-12.png", "pdf": "regelplaene/Regelplan C I-12.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "131", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 12 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "CI-13", "nr": "C I / 13", "teil": "C", "abschnitt": "I", "nrNum": 13, "strassenart": "landstrasse", "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Licht zeichenanlage [ ] Einrichtung einer Umleitung [ ] Anpassung …", "bild": "regelplaene/png/CI-13.png", "pdf": "regelplaene/Regelplan C I-13.pdf", "material": {"zeichen": [{"nummer": "357", "anzahl": 1}, {"nummer": "123", "anzahl": 1}, {"nummer": "131", "anzahl": 1}, {"nummer": "214-30", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}], "sperr": [{"name": "Leitbake (Z 605) – Abstand max. 3 m", "einheit": "Stk.", "fussplattenJe": 1, "anzahl": 0}, {"name": "Absperrschrankengitter (Z 600)", "einheit": "Stk.", "fussplattenJe": 2, "anzahl": 1}, {"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 3}]}}, {"id": "CII-1", "nr": "C II / 1", "teil": "C", "abschnitt": "II", "nrNum": 1, "strassenart": "landstrasse", "titel": "Arbeitsstelle von kürzerer Dauer mit Beschilderung auf Straßen mit geringer Verkehrsstärke (nur bei Tageslicht) Längsabsperrung …", "bild": "regelplaene/png/CII-1.png", "pdf": "regelplaene/Regelplan C II-1.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-2", "nr": "C II / 2", "teil": "C", "abschnitt": "II", "nrNum": 2, "strassenart": "landstrasse", "titel": "Arbeitsstelle von kürzerer Dauer mit fahrbarer Absperrtafel (nur bei Tageslicht) Querabsperrung durch min. 3 Leitkegel (Höhe min. …", "bild": "regelplaene/png/CII-2.png", "pdf": "regelplaene/Regelplan C II-2.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}, {"name": "Fahrbare Absperrtafel (Z 616)", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-3", "nr": "C II / 3", "teil": "C", "abschnitt": "II", "nrNum": 3, "strassenart": "landstrasse", "titel": "Bewegliche Arbeitsstelle (nur bei Tageslicht und guten Sichtverhältnissen) Querabsperrung durch fahrbare Absperrtafel 1) …", "bild": "regelplaene/png/CII-3.png", "pdf": "regelplaene/Regelplan C II-3.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": [{"name": "Warnleuchte gelb", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}, {"name": "Fahrbare Absperrtafel (Z 616)", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-4", "nr": "C II / 4", "teil": "C", "abschnitt": "II", "nrNum": 4, "strassenart": "landstrasse", "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Licht zeichenanlage (nur bei Tageslicht und erhöhten Anforderungen nach RSA …", "bild": "regelplaene/png/CII-4.png", "pdf": "regelplaene/Regelplan C II-4.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "131", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "276", "anzahl": 1}, {"nummer": "282", "anzahl": 1}], "sperr": []}}, {"id": "CII-5", "nr": "C II / 5", "teil": "C", "abschnitt": "II", "nrNum": 5, "strassenart": "landstrasse", "titel": "Arbeitsstelle von kürzerer Dauer dreistreifige Fahrbahn Sperrung der einstreifigen Richtung (nur bei Tageslicht) Querabsperrung …", "bild": "regelplaene/png/CII-5.png", "pdf": "regelplaene/Regelplan C II-5.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "278-50", "anzahl": 1}], "sperr": [{"name": "Fahrbare Absperrtafel (Z 616)", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-6", "nr": "C II / 6", "teil": "C", "abschnitt": "II", "nrNum": 6, "strassenart": "landstrasse", "titel": "Arbeitsstelle von kürzerer Dauer auf dreistreifiger Fahrbahn Sperrung des linken Fahrstreifens der zweistreifigen Richtung bei …", "bild": "regelplaene/png/CII-6.png", "pdf": "regelplaene/Regelplan C II-6.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "278-50", "anzahl": 1}], "sperr": [{"name": "Fahrbare Absperrtafel (Z 616)", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-7", "nr": "C II / 7", "teil": "C", "abschnitt": "II", "nrNum": 7, "strassenart": "landstrasse", "titel": "Arbeitsstelle von kürzerer Dauer auf dreistreifiger Fahrbahn Sperrung der einstreifigen Richtung (nur bei Tageslicht) …", "bild": "regelplaene/png/CII-7.png", "pdf": "regelplaene/Regelplan C II-7.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}, {"nummer": "274-50", "anzahl": 1}, {"nummer": "278-50", "anzahl": 1}], "sperr": [{"name": "Fahrbare Absperrtafel (Z 616)", "einheit": "Stk.", "fussplattenJe": 0, "anzahl": 1}]}}, {"id": "CII-8", "nr": "C II / 8", "teil": "C", "abschnitt": "II", "nrNum": 8, "strassenart": "landstrasse", "titel": "Arbeitsstelle kürzerer Dauer auf zweistreifiger Fahrbahn mit Kreisverkehr (nur bei Tageslicht) Längsabsperrung durch Leitkegel …", "bild": "regelplaene/png/CII-8.png", "pdf": "regelplaene/Regelplan C II-8.pdf", "material": {"zeichen": [{"nummer": "123", "anzahl": 1}], "sperr": []}}]
+[
+  {
+    "id": "BI-1",
+    "nr": "B I / 1",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 1,
+    "strassenart": "innerorts",
+    "titel": "Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit geringer Einengung Längsabsperrung zur …",
+    "bild": "regelplaene/png/BI-1.png",
+    "pdf": "regelplaene/Regelplan B I-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Geringe Einengung (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-2",
+    "nr": "B I / 2",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 2,
+    "strassenart": "innerorts",
+    "titel": "Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit deutlicher Einengung (analog bei …",
+    "bild": "regelplaene/png/BI-2.png",
+    "pdf": "regelplaene/Regelplan B I-2.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Geringe Einengung (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-3",
+    "nr": "B I / 3",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 3,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit geringer Einengung (analog bei Richtungsfahrbahn oder Einbahnstraße) Längsabsperrung zur Fahrbahn – …",
+    "bild": "regelplaene/png/BI-3.png",
+    "pdf": "regelplaene/Regelplan B I-3.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-4",
+    "nr": "B I / 4",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 4,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit Verkehrsführung über Behelfsfahrstreifen (analog bei Richtungsfahrbahn) Querabsperrung durch …",
+    "bild": "regelplaene/png/BI-4.png",
+    "pdf": "regelplaene/Regelplan B I-4.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-5",
+    "nr": "B I / 5",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 5,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage Längsabsperrung zur Fahrbahn durch …",
+    "bild": "regelplaene/png/BI-5.png",
+    "pdf": "regelplaene/Regelplan B I-5.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-6",
+    "nr": "B I / 6",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 6,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerführung Querabsperrung …",
+    "bild": "regelplaene/png/BI-6.png",
+    "pdf": "regelplaene/Regelplan B I-6.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-7",
+    "nr": "B I / 7",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 7,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit Arbeitsstelle in Fahrbahnmitte Querabsperrung durch einseitige Leitbaken Abstand längs 1 – 2 m quer …",
+    "bild": "regelplaene/png/BI-7.png",
+    "pdf": "regelplaene/Regelplan B I-7.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-8",
+    "nr": "B I / 8",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 8,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit beidseitiger Einengung mit geringer Verkehrsstärke Verkehrsregelung durch Verkehrszeichen …",
+    "bild": "regelplaene/png/BI-8.png",
+    "pdf": "regelplaene/Regelplan B I-8.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "208",
+          "anzahl": 1
+        },
+        {
+          "nummer": "308",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-9",
+    "nr": "B I / 9",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 9,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Sperrung eines rechten Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …",
+    "bild": "regelplaene/png/BI-9.png",
+    "pdf": "regelplaene/Regelplan B I-9.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "501-16",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-10",
+    "nr": "B I / 10",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 10,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Sperrung eines linken Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …",
+    "bild": "regelplaene/png/BI-10.png",
+    "pdf": "regelplaene/Regelplan B I-10.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 2
+        },
+        {
+          "nummer": "511-21",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-11",
+    "nr": "B I / 11",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 11,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Sperrung eines rechten Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …",
+    "bild": "regelplaene/png/BI-11.png",
+    "pdf": "regelplaene/Regelplan B I-11.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-10",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-12",
+    "nr": "B I / 12",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 12,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Sperrung eines linken Fahrstreifens bzw. dreistreifige Fahrbahn mit Sperrung im Bereich der …",
+    "bild": "regelplaene/png/BI-12.png",
+    "pdf": "regelplaene/Regelplan B I-12.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 2
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-13",
+    "nr": "B I / 13",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 13,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Sperrung der Fahrstreifen einer Richtung Querabsperrung durch Absperrschrankengitter Längsabsperrung …",
+    "bild": "regelplaene/png/BI-13.png",
+    "pdf": "regelplaene/Regelplan B I-13.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-14",
+    "nr": "B I / 14",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 14,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Einbahnstraßenregelung [ ] Einrichtung einer Umleitung [ ] Anpassung der …",
+    "bild": "regelplaene/png/BI-14.png",
+    "pdf": "regelplaene/Regelplan B I-14.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 2
+        },
+        {
+          "nummer": "214-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214-30",
+          "anzahl": 1
+        },
+        {
+          "nummer": "220-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "220-20",
+          "anzahl": 2
+        },
+        {
+          "nummer": "267",
+          "anzahl": 2
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-15",
+    "nr": "B I / 15",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 15,
+    "strassenart": "innerorts",
+    "titel": "Sperrung einer Straße [ ] Einrichtung einer Umleitung [ ] Anpassung der vorhandenen Verkehrszeichen gemäß Eintragung …",
+    "bild": "regelplaene/png/BI-15.png",
+    "pdf": "regelplaene/Regelplan B I-15.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "357",
+          "anzahl": 1
+        },
+        {
+          "nummer": "357-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "357-51",
+          "anzahl": 1
+        },
+        {
+          "nummer": "357-52",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214-30",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605)",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 5
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": null,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Vollsperrung/Umleitung — keine Restbreite",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-16",
+    "nr": "B I / 16",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 16,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung [ ] Einrichtung einer …",
+    "bild": "regelplaene/png/BI-16.png",
+    "pdf": "regelplaene/Regelplan B I-16.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 5 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-17",
+    "nr": "B I / 17",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 17,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung [ ] Einrichtung einer …",
+    "bild": "regelplaene/png/BI-17.png",
+    "pdf": "regelplaene/Regelplan B I-17.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "357",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214-30",
+          "anzahl": 1
+        },
+        {
+          "nummer": "357-51",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 5 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-18",
+    "nr": "B I / 18",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 18,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und Einmündung Verkehrsregelung durch Lichtzeichenanlage [ ] Einrichtung einer …",
+    "bild": "regelplaene/png/BI-18.png",
+    "pdf": "regelplaene/Regelplan B I-18.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "357",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "125",
+          "anzahl": 1
+        },
+        {
+          "nummer": "220-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "220-20",
+          "anzahl": 1
+        },
+        {
+          "nummer": "267",
+          "anzahl": 2
+        },
+        {
+          "nummer": "357-51",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 5
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BI-19",
+    "nr": "B I / 19",
+    "teil": "B",
+    "abschnitt": "I",
+    "nrNum": 19,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und Einmündung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerquerung …",
+    "bild": "regelplaene/png/BI-19.png",
+    "pdf": "regelplaene/Regelplan B I-19.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-1",
+    "nr": "B II / 1",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 1,
+    "strassenart": "innerorts",
+    "titel": "Paralleler Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe Einengung der Fahrbahn (bei …",
+    "bild": "regelplaene/png/BII-1.png",
+    "pdf": "regelplaene/Regelplan B II-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-2",
+    "nr": "B II / 2",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 2,
+    "strassenart": "innerorts",
+    "titel": "Paralleler Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe Einengung der Fahrbahn (bei …",
+    "bild": "regelplaene/png/BII-2.png",
+    "pdf": "regelplaene/Regelplan B II-2.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "239",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "240",
+          "anzahl": 1
+        },
+        {
+          "nummer": "241-30",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-3",
+    "nr": "B II / 3",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 3,
+    "strassenart": "innerorts",
+    "titel": "Nicht benutzungspflichtiger getrennter Geh- und Radweg mit Sperrung des Radweges (bei Sperrung des Gehweges analog) geringe …",
+    "bild": "regelplaene/png/BII-3.png",
+    "pdf": "regelplaene/Regelplan B II-3.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "239",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605)",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-4",
+    "nr": "B II / 4",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 4,
+    "strassenart": "innerorts",
+    "titel": "Gehwegsperrung Notweg auf der Fahrbahn Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich und mit …",
+    "bild": "regelplaene/png/BII-4.png",
+    "pdf": "regelplaene/Regelplan B II-4.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-5",
+    "nr": "B II / 5",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 5,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung und teilweiser Sperrung eines Gehweges Verkehrsregelung durch Licht …",
+    "bild": "regelplaene/png/BII-5.png",
+    "pdf": "regelplaene/Regelplan B II-5.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-6",
+    "nr": "B II / 6",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 6,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit halbseitiger Sperrung Verkehrsregelung durch Lichtzeichenanlage mit Fußgängerführung Querabsperrung …",
+    "bild": "regelplaene/png/BII-6.png",
+    "pdf": "regelplaene/Regelplan B II-6.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-7",
+    "nr": "B II / 7",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 7,
+    "strassenart": "innerorts",
+    "titel": "Sperrung des nicht benutzungspflichtigen getrennten Geh- und Radweges. Notweg über Fahrbahn Verkehrsführung über …",
+    "bild": "regelplaene/png/BII-7.png",
+    "pdf": "regelplaene/Regelplan B II-7.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "239",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-8",
+    "nr": "B II / 8",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 8,
+    "strassenart": "innerorts",
+    "titel": "Sperrung des getrennten Gehund Radweges Notweg über Fahrbahn Halbseitige Sperrung der Fahrbahn Verkehrsregelung durch …",
+    "bild": "regelplaene/png/BII-8.png",
+    "pdf": "regelplaene/Regelplan B II-8.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "102",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "239",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-9",
+    "nr": "B II / 9",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 9,
+    "strassenart": "innerorts",
+    "titel": "Sperrung des Gehweges Notweg über Fahrbahn geführt Straße mit geringer Verkehrsstärke oder in geschwindigkeitsreduziertem Bereich …",
+    "bild": "regelplaene/png/BII-9.png",
+    "pdf": "regelplaene/Regelplan B II-9.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 2
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Fahrbahn gering eingeengt (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BII-10",
+    "nr": "B II / 10",
+    "teil": "B",
+    "abschnitt": "II",
+    "nrNum": 10,
+    "strassenart": "innerorts",
+    "titel": "Fußgängerschutztunnel und Baustelleneinrichtung Querabsperrungen durch Absperrschrankengitter mit mindestens 3 einseitigen gelben …",
+    "bild": "regelplaene/png/BII-10.png",
+    "pdf": "regelplaene/Regelplan B II-10.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BIII-1",
+    "nr": "B III / 1",
+    "teil": "B",
+    "abschnitt": "III",
+    "nrNum": 1,
+    "strassenart": "innerorts",
+    "titel": "Vierstreifige Fahrbahn mit Schienenbahn Sperrung des Schienenbahnbereiches einer Fahrtrichtung Längsabsperrung [ ] gelbe …",
+    "bild": "regelplaene/png/BIII-1.png",
+    "pdf": "regelplaene/Regelplan B III-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 9 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BIV-1",
+    "nr": "B IV / 1",
+    "teil": "B",
+    "abschnitt": "IV",
+    "nrNum": 1,
+    "strassenart": "innerorts",
+    "titel": "Arbeitsstelle von kürzerer Dauer mit Einengung eines Fahr streifens Längsabsperrung zur Fahrbahn durch Leitkegel (Höhe min. 0,5 …",
+    "bild": "regelplaene/png/BIV-1.png",
+    "pdf": "regelplaene/Regelplan B IV-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BIV-2",
+    "nr": "B IV / 2",
+    "teil": "B",
+    "abschnitt": "IV",
+    "nrNum": 2,
+    "strassenart": "innerorts",
+    "titel": "Arbeitsstelle von kürzerer Dauer auf Straßen mit V ≤ 50 km/h zul Querabsperrung durch Leitkegel (Höhe min. 0,5 m) …",
+    "bild": "regelplaene/png/BIV-2.png",
+    "pdf": "regelplaene/Regelplan B IV-2.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BIV-3",
+    "nr": "B IV / 3",
+    "teil": "B",
+    "abschnitt": "IV",
+    "nrNum": 3,
+    "strassenart": "innerorts",
+    "titel": "Arbeitsstelle von kürzerer Dauer mit Sperrung des Schienenbahnbereiches Längsabsperrung durch Leitkegel (Höhe min. 0,50 m) …",
+    "bild": "regelplaene/png/BIV-3.png",
+    "pdf": "regelplaene/Regelplan B IV-3.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "BIV-4",
+    "nr": "B IV / 4",
+    "teil": "B",
+    "abschnitt": "IV",
+    "nrNum": 4,
+    "strassenart": "innerorts",
+    "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Arbeitsstelle kürzerer Dauer (nur bei Tageslicht) Längsabsperrung durch Leitkegel (Höhe …",
+    "bild": "regelplaene/png/BIV-4.png",
+    "pdf": "regelplaene/Regelplan B IV-4.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": []
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 5.7,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Gemeindestraße",
+        "Kreisstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 5.7 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-1",
+    "nr": "C I / 1",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 1,
+    "strassenart": "landstrasse",
+    "titel": "Bei befestigtem Seitenstreifen und ohne Einengung der Fahrbahn Längsabsperrung durch doppelseitige Leitbaken Abstand max. 12 m 1) …",
+    "bild": "regelplaene/png/CI-1.png",
+    "pdf": "regelplaene/Regelplan C I-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "274-70",
+          "anzahl": 2
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-2",
+    "nr": "C I / 2",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 2,
+    "strassenart": "landstrasse",
+    "titel": "Bei befestigtem Seitenstreifen und ohne Einengung der Fahrbahn auf einen Fahrstreifen Querabsperrung durch doppelseitige …",
+    "bild": "regelplaene/png/CI-2.png",
+    "pdf": "regelplaene/Regelplan C I-2.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "276",
+          "anzahl": 2
+        },
+        {
+          "nummer": "280",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-3",
+    "nr": "C I / 3",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 3,
+    "strassenart": "landstrasse",
+    "titel": "Verkehrsführung über Behelfsfahrstreifen Querabsperrung durch einseitige Leitbaken (min. 3) Verziehungsmaß ca. 1: 3 Abstand quer …",
+    "bild": "regelplaene/png/CI-3.png",
+    "pdf": "regelplaene/Regelplan C I-3.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "276",
+          "anzahl": 2
+        },
+        {
+          "nummer": "280",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Behelfsfahrstreifen 3,0 m/Spur (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-4",
+    "nr": "C I / 4",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 4,
+    "strassenart": "landstrasse",
+    "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Verkehrszeichen Querabsperrung durch doppelseitige Leitbaken (min. 3) …",
+    "bild": "regelplaene/png/CI-4.png",
+    "pdf": "regelplaene/Regelplan C I-4.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "276",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-5",
+    "nr": "C I / 5",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 5,
+    "strassenart": "landstrasse",
+    "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Licht zeichenanlage Querabsperrung durch doppelseitige Leitbaken (min. 3) …",
+    "bild": "regelplaene/png/CI-5.png",
+    "pdf": "regelplaene/Regelplan C I-5.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "131",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "276",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-6",
+    "nr": "C I / 6",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 6,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle am Übergang vom Außer- in den Innerortsbereich Fahrbahn halbseitig gesperrt Querabsperrung durch doppelseitige …",
+    "bild": "regelplaene/png/CI-6.png",
+    "pdf": "regelplaene/Regelplan C I-6.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "276",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "280",
+          "anzahl": 1
+        },
+        {
+          "nummer": "310",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-7",
+    "nr": "C I / 7",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 7,
+    "strassenart": "landstrasse",
+    "titel": "Dreistreifige Fahrbahn Sperrung des rechten Fahrstreifens der zweistreifigen Richtung Längsabsperrung durch einseitige Leitbaken …",
+    "bild": "regelplaene/png/CI-7.png",
+    "pdf": "regelplaene/Regelplan C I-7.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-10",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-8",
+    "nr": "C I / 8",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 8,
+    "strassenart": "landstrasse",
+    "titel": "Dreistreifige Fahrbahn Sperrung des linken Fahrstreifens der zweistreifigen Richtung Längsabsperrung durch einseitige Leitbaken …",
+    "bild": "regelplaene/png/CI-8.png",
+    "pdf": "regelplaene/Regelplan C I-8.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "278-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-9",
+    "nr": "C I / 9",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 9,
+    "strassenart": "landstrasse",
+    "titel": "Dreistreifige Fahrbahn Sperrung der einstreifigen Richtung Querabsperrung durch einseitige Leitbaken (min. 3) Verziehungsmaß ca. …",
+    "bild": "regelplaene/png/CI-9.png",
+    "pdf": "regelplaene/Regelplan C I-9.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "278-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "511-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "531-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-10",
+    "nr": "C I / 10",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 10,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstellenumfahrung mit Behelfsfahrbahn Querabsperrung durch einseitige Leitbaken mit einseitigen gelben Warnleuchten auf …",
+    "bild": "regelplaene/png/CI-10.png",
+    "pdf": "regelplaene/Regelplan C I-10.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "276",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        },
+        {
+          "nummer": "514-10",
+          "anzahl": 1
+        },
+        {
+          "nummer": "514-20",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605)",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-11",
+    "nr": "C I / 11",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 11,
+    "strassenart": "landstrasse",
+    "titel": "Dreistreifige Fahrbahn Sperrung des rechten Fahrstreifens der zweistreifigen Richtung Querabsperrung durch einseitige Leitbaken …",
+    "bild": "regelplaene/png/CI-11.png",
+    "pdf": "regelplaene/Regelplan C I-11.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "278-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-70",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 2
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "532-10",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-12",
+    "nr": "C I / 12",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 12,
+    "strassenart": "landstrasse",
+    "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Lichtzeichenanlage [ ] Einrichtung einer Umleitung [ ] Anpassung …",
+    "bild": "regelplaene/png/CI-12.png",
+    "pdf": "regelplaene/Regelplan C I-12.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "131",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 12 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CI-13",
+    "nr": "C I / 13",
+    "teil": "C",
+    "abschnitt": "I",
+    "nrNum": 13,
+    "strassenart": "landstrasse",
+    "titel": "Zweistreifige Fahrbahn mit Kreisverkehr Verkehrsregelung durch Licht zeichenanlage [ ] Einrichtung einer Umleitung [ ] Anpassung …",
+    "bild": "regelplaene/png/CI-13.png",
+    "pdf": "regelplaene/Regelplan C I-13.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "357",
+          "anzahl": 1
+        },
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "131",
+          "anzahl": 1
+        },
+        {
+          "nummer": "214-30",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Leitbake (Z 605) – Abstand max. 3 m",
+          "einheit": "Stk.",
+          "fussplattenJe": 1,
+          "anzahl": 0
+        },
+        {
+          "name": "Absperrschrankengitter (Z 600)",
+          "einheit": "Stk.",
+          "fussplattenJe": 2,
+          "anzahl": 1
+        },
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 3
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-1",
+    "nr": "C II / 1",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 1,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle von kürzerer Dauer mit Beschilderung auf Straßen mit geringer Verkehrsstärke (nur bei Tageslicht) Längsabsperrung …",
+    "bild": "regelplaene/png/CII-1.png",
+    "pdf": "regelplaene/Regelplan C II-1.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 2.85,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Geringe Einengung (Mindestspur 2,85 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-2",
+    "nr": "C II / 2",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 2,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle von kürzerer Dauer mit fahrbarer Absperrtafel (nur bei Tageslicht) Querabsperrung durch min. 3 Leitkegel (Höhe min. …",
+    "bild": "regelplaene/png/CII-2.png",
+    "pdf": "regelplaene/Regelplan C II-2.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        },
+        {
+          "name": "Fahrbare Absperrtafel (Z 616)",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-3",
+    "nr": "C II / 3",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 3,
+    "strassenart": "landstrasse",
+    "titel": "Bewegliche Arbeitsstelle (nur bei Tageslicht und guten Sichtverhältnissen) Querabsperrung durch fahrbare Absperrtafel 1) …",
+    "bild": "regelplaene/png/CII-3.png",
+    "pdf": "regelplaene/Regelplan C II-3.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Warnleuchte gelb",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        },
+        {
+          "name": "Fahrbare Absperrtafel (Z 616)",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Default Wechselverkehr 3,0 m — pruefen",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-4",
+    "nr": "C II / 4",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 4,
+    "strassenart": "landstrasse",
+    "titel": "Fahrbahn halbseitig gesperrt Verkehrsregelung durch Licht zeichenanlage (nur bei Tageslicht und erhöhten Anforderungen nach RSA …",
+    "bild": "regelplaene/png/CII-4.png",
+    "pdf": "regelplaene/Regelplan C II-4.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "131",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "276",
+          "anzahl": 1
+        },
+        {
+          "nummer": "282",
+          "anzahl": 1
+        }
+      ],
+      "sperr": []
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-5",
+    "nr": "C II / 5",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 5,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle von kürzerer Dauer dreistreifige Fahrbahn Sperrung der einstreifigen Richtung (nur bei Tageslicht) Querabsperrung …",
+    "bild": "regelplaene/png/CII-5.png",
+    "pdf": "regelplaene/Regelplan C II-5.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Fahrbare Absperrtafel (Z 616)",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-6",
+    "nr": "C II / 6",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 6,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle von kürzerer Dauer auf dreistreifiger Fahrbahn Sperrung des linken Fahrstreifens der zweistreifigen Richtung bei …",
+    "bild": "regelplaene/png/CII-6.png",
+    "pdf": "regelplaene/Regelplan C II-6.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Fahrbare Absperrtafel (Z 616)",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-7",
+    "nr": "C II / 7",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 7,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle von kürzerer Dauer auf dreistreifiger Fahrbahn Sperrung der einstreifigen Richtung (nur bei Tageslicht) …",
+    "bild": "regelplaene/png/CII-7.png",
+    "pdf": "regelplaene/Regelplan C II-7.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        },
+        {
+          "nummer": "274-50",
+          "anzahl": 1
+        },
+        {
+          "nummer": "278-50",
+          "anzahl": 1
+        }
+      ],
+      "sperr": [
+        {
+          "name": "Fahrbare Absperrtafel (Z 616)",
+          "einheit": "Stk.",
+          "fussplattenJe": 0,
+          "anzahl": 1
+        }
+      ]
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 3,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Wechselverkehr ≥ 3,0 m (LSA-Ausnahme 2,75 m)",
+      "unverifiziert": true
+    }
+  },
+  {
+    "id": "CII-8",
+    "nr": "C II / 8",
+    "teil": "C",
+    "abschnitt": "II",
+    "nrNum": 8,
+    "strassenart": "landstrasse",
+    "titel": "Arbeitsstelle kürzerer Dauer auf zweistreifiger Fahrbahn mit Kreisverkehr (nur bei Tageslicht) Längsabsperrung durch Leitkegel …",
+    "bild": "regelplaene/png/CII-8.png",
+    "pdf": "regelplaene/Regelplan C II-8.pdf",
+    "material": {
+      "zeichen": [
+        {
+          "nummer": "123",
+          "anzahl": 1
+        }
+      ],
+      "sperr": []
+    },
+    "anforderungen": {
+      "restbreite": {
+        "min_m": 6,
+        "max_m": null
+      },
+      "laenge": {
+        "min_m": null,
+        "max_m": null
+      },
+      "strassenklassen": [
+        "Kreisstraße",
+        "Bundesstraße"
+      ],
+      "heuristik": "Begegnungsverkehr ≥ 6 m (RSA 21)",
+      "unverifiziert": true
+    }
+  }
+]

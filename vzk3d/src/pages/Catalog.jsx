@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useView } from "../app/ViewContext.jsx";
+import { usePackingList } from "../hooks/usePackingList.js";
 import { SearchBar } from "../components/catalog/SearchBar.jsx";
 import { CategoryFilter } from "../components/catalog/CategoryFilter.jsx";
 import { SignGrid } from "../components/catalog/SignGrid.jsx";
@@ -9,10 +10,15 @@ import "../components/catalog/catalog.css";
 
 export function Catalog() {
   const { view, gotoKatalog, gotoZeichen } = useView();
+  const { addSign } = usePackingList(); // T020: Wire packing list
 
   // Initialzustand aus der Route (deep-linkbar), danach lokal gehalten.
   const [query, setQuery] = useState(view.q || "");
   const [kategorie, setKategorie] = useState(view.kat || "alle");
+
+  const handleAddToPacking = (zeichennummer, bezeichnung) => {
+    addSign(zeichennummer, bezeichnung, 1);
+  };
 
   // Route-Änderungen (z. B. Klick auf „Gefahrzeichen" im Dashboard) übernehmen.
   useEffect(() => {
@@ -60,7 +66,7 @@ export function Catalog() {
         {treffer.length} {treffer.length === 1 ? "Zeichen" : "Zeichen"} gefunden
       </p>
 
-      <SignGrid zeichen={treffer} onOpen={gotoZeichen} />
+      <SignGrid zeichen={treffer} onOpen={gotoZeichen} onAddToPacking={handleAddToPacking} />
     </div>
   );
 }

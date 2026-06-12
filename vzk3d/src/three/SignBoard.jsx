@@ -1,18 +1,39 @@
-import { useMemo } from "react";
+import { useMemo, useEffect, useState } from "react";
 import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { SCENE } from "../theme/tokens.js";
+import { renderWunschtextCanvas } from "../lib/wunschtext-canvas.js";
 
 /**
  * Das Verkehrszeichen als 3D-Objekt: die Asset-Grafik als Textur auf der
  * Schildfläche (mit Alpha → echte Schildsilhouette), graue Rückseite in
  * gleicher Form, leicht retroreflektierender Look. Montiert auf einem
  * verzinkten Pfosten.
+ *
+ * US4-Fix: wunschtext wird als Canvas-Textur ins Schildbild gerendert,
+ * statt nur den Platzhalter zu zeigen.
  */
-export function SignBoard({ src, lowPower = false }) {
-  const tex = useTexture(src);
-  tex.colorSpace = THREE.SRGBColorSpace;
-  tex.anisotropy = lowPower ? 1 : 8;
+export function SignBoard({ src, lowPower = false, wunschtext = "" }) {
+  const baseTex = useTexture(src);
+  baseTex.colorSpace = THREE.SRGBColorSpace;
+  baseTex.anisotropy = lowPower ? 1 : 8;
+
+  // Wenn Wunschtext gesetzt: Canvas-Textur (Bild + Text) erzeugen.
+  const [canvasTex, setCanvasTex] = useState(null);
+  useEffect(() => {
+    if (!wunschtext || !wunschtext.trim() || !baseTex.image) {
+      setCanvasTex(null);
+      return;
+    }
+    const canvas = renderWunschtextCanvas(baseTex.image, wunschtext);
+    const ct = new THREE.CanvasTexture(canvas);
+    ct.colorSpace = THREE.SRGBColorSpace;
+    ct.anisotropy = lowPower ? 1 : 8;
+    setCanvasTex(ct);
+    return () => ct.dispose();
+  }, [wunschtext, baseTex, lowPower]);
+
+  const tex = canvasTex || baseTex;
 
   // Seitenverhältnis aus der geladenen Grafik → Schildgröße.
   const { w, h } = useMemo(() => {

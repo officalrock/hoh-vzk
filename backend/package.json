@@ -1,0 +1,16 @@
+{
+  "name": "vzk-street-class-api",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Backend: ermittelt aus Stadt+Straße die Straßenklasse (Gemeinde/Kreis/Bundes) via OSM Overpass.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}

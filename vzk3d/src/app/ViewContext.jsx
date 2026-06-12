@@ -25,6 +25,12 @@ function parseHash() {
   if (segs[0] === "regelplaene") {
     return { name: "regelplaene", teil: params.get("teil") || "alle" };
   }
+  if (segs[0] === "projekte") {
+    return { name: "projekte" };
+  }
+  if (segs[0] === "auswertung") {
+    return { name: "auswertung" };
+  }
   if (segs[0] === "katalog") {
     return { name: "katalog", kat: params.get("kat") || "alle", q: params.get("q") || "" };
   }
@@ -69,6 +75,8 @@ export function ViewProvider({ children }) {
     (id) => navigate("#/regelplan/" + encodeURIComponent(id)),
     [navigate]
   );
+  const gotoProjekte = useCallback(() => navigate("#/projekte"), [navigate]);
+  const gotoAuswertung = useCallback(() => navigate("#/auswertung"), [navigate]);
 
   return (
     <ViewContext.Provider
@@ -80,6 +88,8 @@ export function ViewProvider({ children }) {
         gotoZeichen,
         gotoRegelplaene,
         gotoRegelplan,
+        gotoProjekte,
+        gotoAuswertung,
       }}
     >
       {children}

@@ -1,5 +1,7 @@
-import { ArrowLeft, FilePdf } from "@phosphor-icons/react";
+import { useState } from "react";
+import { ArrowLeft, FilePdf, Package, Check } from "@phosphor-icons/react";
 import { useView } from "../app/ViewContext.jsx";
+import { usePackingList } from "../hooks/usePackingList.js";
 import { assetUrl } from "../utils/assetPath.js";
 import { CompanyBlock } from "../components/regelplan/CompanyBlock.jsx";
 import { MaterialBuilder } from "../components/material/MaterialBuilder.jsx";
@@ -11,6 +13,8 @@ const ART_LABEL = { innerorts: "innerorts", landstrasse: "Landstraße", autobahn
 
 export function RegelplanDetail({ id }) {
   const { gotoRegelplaene } = useView();
+  const { importRegelplan } = usePackingList();
+  const [imported, setImported] = useState(false);
   const p = plaene.find((x) => x.id === id);
 
   if (!p) {
@@ -51,6 +55,18 @@ export function RegelplanDetail({ id }) {
               <FilePdf size={18} weight="bold" /> Original-PDF öffnen
             </a>
           )}
+          <button
+            className="rp-pack-btn"
+            onClick={() => {
+              importRegelplan(p);
+              setImported(true);
+              setTimeout(() => setImported(false), 2000);
+            }}
+            style={{ marginTop: 12 }}
+          >
+            {imported ? <Check size={18} weight="bold" /> : <Package size={18} weight="bold" />}
+            {imported ? "In Packliste übernommen" : "Material in Packliste übernehmen"}
+          </button>
           <div style={{ marginTop: 16 }}>
             <CompanyBlock />
           </div>

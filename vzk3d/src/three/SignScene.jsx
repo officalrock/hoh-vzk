@@ -9,7 +9,7 @@ import { usePrefersReducedMotion } from "../hooks/usePrefersReducedMotion.js";
  * Wird per React.lazy nur in der Detailansicht und nur auf 3D-fähigen
  * Geräten geladen (siehe SignDetail).
  */
-export function SignScene({ src, lowPower = false }) {
+export function SignScene({ src, lowPower = false, wunschtext = "" }) {
   const reduced = usePrefersReducedMotion();
 
   return (
@@ -29,7 +29,7 @@ export function SignScene({ src, lowPower = false }) {
       <directionalLight position={[-3, 2, -2]} intensity={0.4} color="#9fc0ff" />
 
       <Suspense fallback={null}>
-        <SignBoard src={src} lowPower={lowPower} />
+        <SignBoard src={src} lowPower={lowPower} wunschtext={wunschtext} />
         {/* Dezente Reflexionen ohne externe HDR-Datei (offline-tauglich) */}
         {!lowPower && <Environment resolution={64}>
           <mesh scale={20}>

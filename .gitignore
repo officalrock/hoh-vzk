@@ -6,6 +6,13 @@ dist/
 __pycache__/
 *.pyc
 
+# Lokale Env (API-URLs, Secrets) — .env.example bleibt im Repo
+.env
+vzk3d/.env
+
+# Spec-Kit: versehentliche App-Dup (echte App liegt in vzk3d/)
+my-project/vzk3d/
+
 # Große Assets (lokal verwaltet, nicht im Repo)
 assets/Fotos/
 assets/regelplaene/*.pdf
