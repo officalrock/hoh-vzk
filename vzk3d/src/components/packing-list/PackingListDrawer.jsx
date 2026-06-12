@@ -29,7 +29,7 @@ function ladeSettings() {
 /**
  * Packliste Drawer mit globalem Aufstellort/-höhe (US8: Schild-Windlast).
  */
-export default function PackingListDrawer({ isOpen, onClose, projectId = 'global' }) {
+export default function PackingListDrawer({ isOpen, onClose, projectId = null }) {
   const {
     positionen,
     removeSign,

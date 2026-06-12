@@ -34,6 +34,7 @@ const SPERR_PRESETS = [
   { name: "Absperrschranke (Z 600)", einheit: "Stk.", fussplattenJe: 2 },
   { name: "Fahrbare Absperrtafel", einheit: "Stk.", fussplattenJe: 0 },
   { name: "Warnleuchte", einheit: "Stk.", fussplattenJe: 0 },
+  { name: "Absturzsicherung (2,0 m)", einheit: "Stk.", fussplattenJe: 0, laenge: "" },
 ];
 
 // RSA-21-Regelabstände (m) je Straßenart für die Mengenberechnung aus
@@ -48,6 +49,7 @@ const ABSTAND = {
 function sperrTyp(name = "") {
   if (/leitbake/i.test(name)) return "leitbake";
   if (/leitkegel/i.test(name)) return "leitkegel";
+  if (/absturzsicher|schutzgel(ä|ae)nder/i.test(name)) return "absturz";
   return null;
 }
 
@@ -187,20 +189,27 @@ export function MaterialBuilder({
   const seiten = parseInt(state.seiten, 10) || 1;
   const sperrRows = state.sperr.map((r) => {
     const typ = sperrTyp(r.name);
+    // Absturzsicherung: 2,0 m je Stück, Füße = 2 + ceil(Länge) je
+    // zusammenhängendem Abschnitt; Füße zählen als K1-Fußplatten.
+    if (typ === "absturz") {
+      const L = parseFloat(r.laenge) || 0;
+      const stueck = L > 0 ? Math.ceil(L / 2) : parseInt(r.anzahl, 10) || 0;
+      const fuesse = L > 0 ? 2 + Math.ceil(L) : 0;
+      return { ...r, typ, laengeAktiv: L > 0, anzahl: stueck, fuesse, platten: fuesse };
+    }
     const auto = r.manuell ? null : autoAnzahl(typ, strassenart, laenge, seiten);
+    const anzahl = auto != null ? auto : r.anzahl;
     return {
       ...r,
       typ,
       abstand: ABSTAND[typ]?.[strassenart] || null,
       autoAktiv: auto != null,
-      anzahl: auto != null ? auto : r.anzahl,
+      anzahl,
+      platten: (parseInt(r.fussplattenJe, 10) || 0) * (parseInt(anzahl, 10) || 0),
     };
   });
 
-  const sperrPlatten = sperrRows.reduce(
-    (s, r) => s + (parseInt(r.fussplattenJe, 10) || 0) * (parseInt(r.anzahl, 10) || 0),
-    0
-  );
+  const sperrPlatten = sperrRows.reduce((s, r) => s + (parseInt(r.platten, 10) || 0), 0);
   const signPlatten = signRows.reduce((s, r) => s + r.platten, 0);
   const wunschtextPlatten = wunschtextRows.reduce((s, r) => s + r.platten, 0);
   const totalPlatten = signPlatten + wunschtextPlatten + sperrPlatten;
@@ -236,11 +245,11 @@ export function MaterialBuilder({
       [],
       ["Sperrmaterial", "Einheit", "Anzahl", "Fussplatten_je", "Fussplatten_gesamt"],
       ...sperrRows.map((r) => [
-        r.name,
+        r.typ === "absturz" ? `${r.name} – ${r.laenge || 0} m` : r.name,
         r.einheit,
         String(r.anzahl),
-        String(r.fussplattenJe),
-        String((parseInt(r.fussplattenJe, 10) || 0) * (parseInt(r.anzahl, 10) || 0)),
+        r.typ === "absturz" ? `${r.fuesse} Füße` : String(r.fussplattenJe),
+        String(parseInt(r.platten, 10) || 0),
       ]),
       [],
       ["K1-Fussplatten gesamt", String(totalPlatten)],
@@ -400,66 +409,110 @@ export function MaterialBuilder({
         </div>
         <div className="mat__rows">
           {state.sperr.length === 0 && <div className="mat__empty">Leitbaken, Schranken, Leuchten … per Plus erfassen.</div>}
-          {sperrRows.map((r) => (
-            <div className="mat__row" key={r.key}>
-              <span className="mat__thumb" aria-hidden style={{ fontSize: 18 }}>
-                ⛟
-              </span>
-              <div className="mat__rowmain">
-                <input
-                  style={{ width: "100%" }}
-                  value={r.name}
-                  placeholder="Bezeichnung (z. B. Leitbake Z 605)"
-                  onChange={(e) => updSperr(r.key, { name: e.target.value })}
-                  aria-label="Bezeichnung"
-                />
-                <div className="mat__rowcalc" style={{ marginTop: 6 }}>
-                  <label>
-                    Fußplatten/Stück:{" "}
-                    <input
-                      className="mat__num"
-                      type="number"
-                      min="0"
-                      value={r.fussplattenJe}
-                      onChange={(e) => updSperr(r.key, { fussplattenJe: e.target.value })}
-                      aria-label="Fußplatten je Stück"
-                    />
-                  </label>
-                  {r.autoAktiv && (
-                    <span className="mat__autobadge" title={`RSA 21: alle ${r.abstand} m, ${seiten === 2 ? "doppelseitig" : "einseitig"}`}>
-                      auto · RSA 21 ({r.abstand} m)
-                    </span>
-                  )}
-                  {r.manuell && r.typ && laenge > 0 && (
-                    <button
-                      type="button"
-                      className="mat__autoreset"
-                      onClick={() => updSperr(r.key, { manuell: false })}
-                      title="Wieder automatisch nach Baustellenlänge berechnen"
-                    >
-                      ↺ auto
-                    </button>
-                  )}
+          {sperrRows.map((r) =>
+            r.typ === "absturz" ? (
+              <div className="mat__row" key={r.key}>
+                <span className="mat__thumb" aria-hidden style={{ fontSize: 18 }}>
+                  ⛟
+                </span>
+                <div className="mat__rowmain">
+                  <input
+                    style={{ width: "100%" }}
+                    value={r.name}
+                    placeholder="Absturzsicherung"
+                    onChange={(e) => updSperr(r.key, { name: e.target.value })}
+                    aria-label="Bezeichnung"
+                  />
+                  <div className="mat__rowcalc" style={{ marginTop: 6 }}>
+                    <label>
+                      Länge (m):{" "}
+                      <input
+                        className="mat__num"
+                        type="number"
+                        min="0"
+                        step="0.5"
+                        value={r.laenge ?? ""}
+                        onChange={(e) => updSperr(r.key, { laenge: e.target.value })}
+                        aria-label="Länge der Absturzsicherung in Metern"
+                      />
+                    </label>
+                    {r.laengeAktiv && (
+                      <span className="mat__autobadge" title="2,0 m je Stück · Füße = 2 + 1 je laufendem Meter">
+                        {r.anzahl} Stk. · {r.fuesse} Füße
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <div className="mat__rowctrl">
+                  <span className="mat__plates">
+                    <b>{r.platten}</b> Fußpl.
+                  </span>
+                  <button className="mat__del" onClick={() => delSperr(r.key)} aria-label="Entfernen">
+                    <Trash size={18} weight="bold" />
+                  </button>
                 </div>
               </div>
-              <div className="mat__rowctrl">
-                <input
-                  className="mat__num"
-                  type="number"
-                  min="0"
-                  value={r.anzahl}
-                  onChange={(e) => updSperr(r.key, { anzahl: e.target.value, manuell: true })}
-                  aria-label="Anzahl"
-                />
-                <span className="mat__plates">
-                  <b>{(parseInt(r.fussplattenJe, 10) || 0) * (parseInt(r.anzahl, 10) || 0)}</b> Fußpl.
+            ) : (
+              <div className="mat__row" key={r.key}>
+                <span className="mat__thumb" aria-hidden style={{ fontSize: 18 }}>
+                  ⛟
                 </span>
-                <button className="mat__del" onClick={() => delSperr(r.key)} aria-label="Entfernen">
-                  <Trash size={18} weight="bold" />
-                </button>
+                <div className="mat__rowmain">
+                  <input
+                    style={{ width: "100%" }}
+                    value={r.name}
+                    placeholder="Bezeichnung (z. B. Leitbake Z 605)"
+                    onChange={(e) => updSperr(r.key, { name: e.target.value })}
+                    aria-label="Bezeichnung"
+                  />
+                  <div className="mat__rowcalc" style={{ marginTop: 6 }}>
+                    <label>
+                      Fußplatten/Stück:{" "}
+                      <input
+                        className="mat__num"
+                        type="number"
+                        min="0"
+                        value={r.fussplattenJe}
+                        onChange={(e) => updSperr(r.key, { fussplattenJe: e.target.value })}
+                        aria-label="Fußplatten je Stück"
+                      />
+                    </label>
+                    {r.autoAktiv && (
+                      <span className="mat__autobadge" title={`RSA 21: alle ${r.abstand} m, ${seiten === 2 ? "doppelseitig" : "einseitig"}`}>
+                        auto · RSA 21 ({r.abstand} m)
+                      </span>
+                    )}
+                    {r.manuell && r.typ && laenge > 0 && (
+                      <button
+                        type="button"
+                        className="mat__autoreset"
+                        onClick={() => updSperr(r.key, { manuell: false })}
+                        title="Wieder automatisch nach Baustellenlänge berechnen"
+                      >
+                        ↺ auto
+                      </button>
+                    )}
+                  </div>
+                </div>
+                <div className="mat__rowctrl">
+                  <input
+                    className="mat__num"
+                    type="number"
+                    min="0"
+                    value={r.anzahl}
+                    onChange={(e) => updSperr(r.key, { anzahl: e.target.value, manuell: true })}
+                    aria-label="Anzahl"
+                  />
+                  <span className="mat__plates">
+                    <b>{r.platten}</b> Fußpl.
+                  </span>
+                  <button className="mat__del" onClick={() => delSperr(r.key)} aria-label="Entfernen">
+                    <Trash size={18} weight="bold" />
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 8, padding: "0 14px 12px" }}>
           {SPERR_PRESETS.map((p) => (
