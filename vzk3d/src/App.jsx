@@ -7,6 +7,7 @@ import { RegelplanDetail } from "./pages/RegelplanDetail.jsx";
 import { ProjectSelector } from "./pages/ProjectSelector.jsx";
 import { Auswertung } from "./pages/Auswertung.jsx";
 import { StartGate } from "./pages/StartGate.jsx";
+import { IntroSplash } from "./components/intro/IntroSplash.jsx";
 import { useView } from "./app/ViewContext.jsx";
 import { useState } from "react";
 
@@ -17,6 +18,12 @@ function entryDone() {
 export default function App() {
   const { view } = useView();
   const [gateDone, setGateDone] = useState(entryDone);
+  const [introDone, setIntroDone] = useState(() => !IntroSplash.shouldShow());
+
+  // Splash-Animation beim App-Aufruf (einmal pro Session), dann weiter.
+  if (!introDone) {
+    return <IntroSplash onDone={() => setIntroDone(true)} />;
+  }
 
   // Vorgeschaltete Startseite beim ersten Aufruf (Dashboard-Route, noch kein Eintritt).
   if (!gateDone && view.name === "dashboard") {
