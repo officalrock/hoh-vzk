@@ -89,7 +89,7 @@ export function Dashboard() {
             <Signpost size={16} weight="fill" /> Verkehrssicherung · technisch
           </span>
           <h1 className="dash__title">
-            Signal&shy;technik,<br />im Griff.
+            Verkehrs&shy;sicherung,<br />im Griff.
           </h1>
           <p className="dash__lead">
             Der vollständige Katalog aller deutschen Verkehrszeichen nach StVO und VzKat – mit
