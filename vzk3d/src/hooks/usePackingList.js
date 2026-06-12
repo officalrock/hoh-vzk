@@ -38,29 +38,29 @@ export function usePackingList(projectId = null) {
   const refresh = useCallback(() => setList(new PackingList(resolvedId)), [resolvedId]);
 
   const addSign = useCallback(
-    (zeichennummer, bezeichnung = null, anzahl = 1) => {
+    (zeichennummer, bezeichnung = null, anzahl = 1, wunschtext = null) => {
       if (!list) return;
       const zeichen = allZeichen.find((z) => z.nummer === zeichennummer);
       const name = bezeichnung || zeichen?.name || zeichennummer;
-      list.addSign(zeichennummer, name, anzahl, zeichen?.bild || '');
+      list.addSign(zeichennummer, name, anzahl, zeichen?.bild || '', wunschtext);
       refresh();
     },
     [list, allZeichen, refresh]
   );
 
   const removeSign = useCallback(
-    (zeichennummer) => {
+    (zeichennummer, wunschtext = null) => {
       if (!list) return;
-      list.removeSign(zeichennummer);
+      list.removeSign(zeichennummer, wunschtext);
       refresh();
     },
     [list, refresh]
   );
 
   const updateSignQuantity = useCallback(
-    (zeichennummer, anzahl) => {
+    (zeichennummer, anzahl, wunschtext = null) => {
       if (!list) return;
-      list.updateSignQuantity(zeichennummer, anzahl);
+      list.updateSignQuantity(zeichennummer, anzahl, wunschtext);
       refresh();
     },
     [list, refresh]

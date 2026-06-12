@@ -109,14 +109,14 @@ export default function PackingListDrawer({ isOpen, onClose, projectId = 'global
                 aufstellhoehe={settings.aufstellhoehe}
                 onRemove={() => {
                   if (pos.type === 'sign') {
-                    removeSign(pos.zeichennummer);
+                    removeSign(pos.zeichennummer, pos.wunschtext);
                   } else {
                     removeMaterial(pos.name);
                   }
                 }}
                 onQuantityChange={(_id, anzahl) => {
                   if (pos.type === 'sign') {
-                    updateSignQuantity(pos.zeichennummer, anzahl);
+                    updateSignQuantity(pos.zeichennummer, anzahl, pos.wunschtext);
                   } else {
                     updateMaterialQuantity(pos.name, anzahl);
                   }

@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import { ArrowLeft, ArrowsOutCardinal, CubeTransparent, Image as ImageIcon, PencilSimple, Check } from "@phosphor-icons/react";
+import { ArrowLeft, ArrowsOutCardinal, CubeTransparent, Image as ImageIcon, PencilSimple, Check, Plus } from "@phosphor-icons/react";
 import { useView } from "../app/ViewContext.jsx";
+import { usePackingList } from "../hooks/usePackingList.js";
 import { usePerformanceTier } from "../hooks/usePerformanceTier.js";
 import { CategoryBadge } from "../components/ui/CategoryBadge.jsx";
 import { Button } from "../components/ui/Button.jsx";
@@ -15,8 +16,10 @@ const SignScene = lazy(() => import("../three/SignScene.jsx"));
 
 export function SignDetail({ nummer }) {
   const { gotoKatalog } = useView();
+  const { addSign } = usePackingList();
   const tier = usePerformanceTier();
   const [show3d, setShow3d] = useState(tier.allow3d);
+  const [added, setAdded] = useState(false);
 
   const z = zeichen.find((x) => x.nummer === nummer);
   const platzhalter = z && isPlatzhalter(z.nummer);
@@ -112,6 +115,18 @@ export function SignDetail({ nummer }) {
             <CategoryBadge kategorie={z.kategorie} />
             {z.gruppe && <span className="badge" style={{ background: "#3a4250" }}>{z.gruppe}</span>}
           </div>
+
+          <button
+            className="detail__add"
+            onClick={() => {
+              addSign(z.nummer, z.name, 1, platzhalter && wunschtext.trim() ? wunschtext.trim() : null);
+              setAdded(true);
+              setTimeout(() => setAdded(false), 1600);
+            }}
+          >
+            {added ? <Check size={18} weight="bold" /> : <Plus size={18} weight="bold" />}
+            {added ? "Zur Packliste hinzugefügt" : "Zur Packliste hinzufügen"}
+          </button>
 
           <div className="detail__block">
             <h2>Bedeutung</h2>

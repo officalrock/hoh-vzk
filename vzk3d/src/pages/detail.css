@@ -142,3 +142,21 @@
     aspect-ratio: 1 / 1;
   }
 }
+
+/* +Button in Detailansicht → Packliste */
+.detail__add {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 4px;
+  padding: 10px 18px;
+  border-radius: 9px;
+  border: none;
+  background: var(--accent, #2f6df6);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: filter 0.15s ease, background 0.15s ease;
+}
+.detail__add:hover { filter: brightness(1.08); }
