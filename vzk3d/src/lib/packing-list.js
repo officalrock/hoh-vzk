@@ -3,6 +3,8 @@
  * Handles: add/remove signs, import Regelplan material, auto-summation, localStorage persistence
  */
 
+import { signWindlast } from './packing-windlast.js';
+
 const STORAGE_KEY_TEMPLATE = 'vzk-packliste-';
 
 // Außerorts erhöht den Staudruck (RSA 21: 0,42 vs 0,25 kN/m²) → mehr Fußplatten.
@@ -177,15 +179,16 @@ export class PackingList {
   }
 
   /**
-   * Export packing list as CSV
+   * Export packing list as CSV. settings = {aufstellort, aufstellhoehe} fuer Schild-Windlast.
    */
-  toCSV() {
-    const headers = ['Zeichennummer', 'Bezeichnung', 'Einheit', 'Menge', 'Aufstellort', 'Fussplatten', 'Wunschtext'];
+  toCSV(settings = { aufstellort: 'innerorts', aufstellhoehe: 2.0 }) {
+    const headers = ['Zeichennummer', 'Bezeichnung', 'Einheit', 'Menge', 'Windmoment_Nm', 'Fussplatten', 'Wunschtext'];
     const rows = this.positionen.map((p) => {
       if (p.type === 'sign') {
-        return [p.zeichennummer, p.bezeichnung, 'Stk.', p.stueckzahl, '', '', p.wunschtext || ''];
+        const w = signWindlast(p.zeichennummer, p.stueckzahl, settings.aufstellort, settings.aufstellhoehe);
+        return [p.zeichennummer, p.bezeichnung, 'Stk.', p.stueckzahl, w.momentNm, w.fussplattenGesamt, p.wunschtext || ''];
       } else {
-        return ['', p.name, p.einheit, p.stueckzahl, p.aufstellort || '', fussplattenGesamt(p), ''];
+        return ['', p.name, p.einheit, p.stueckzahl, '', fussplattenGesamt(p), ''];
       }
     });
     const csv = [headers, ...rows].map((row) => row.map((cell) => `"${cell}"`).join(';')).join('\n');

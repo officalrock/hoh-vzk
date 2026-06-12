@@ -111,9 +111,9 @@ export function usePackingList(projectId = null) {
     [list, allZeichen, refresh]
   );
 
-  const toCSV = useCallback(() => {
+  const toCSV = useCallback((settings) => {
     if (!list) return '';
-    return list.toCSV();
+    return list.toCSV(settings);
   }, [list]);
 
   return {

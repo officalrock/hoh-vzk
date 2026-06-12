@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Trash, Minus, Plus } from '@phosphor-icons/react';
 import { assetUrl } from '../../utils/assetPath.js';
 import { fussplattenGesamt } from '../../lib/packing-list.js';
+import { signWindlast } from '../../lib/packing-windlast.js';
 import zeichenData from '../../data/zeichen.json';
 
 // Lookup nummer → bild-Pfad (richtige Endung .svg/.png aus den Daten).
@@ -9,9 +10,13 @@ const BILD_MAP = new Map(zeichenData.map((z) => [z.nummer, z.bild]));
 
 /**
  * T019/US8: Single packing list item row (sign or material).
+ * Schilder: volle Windlast (Moment + Fußplatten) aus Aufstellort/-höhe.
  * Material-Zeilen: Aufstellort-Umschalter + Fußplattenbedarf.
  */
-export default function PackingListItemRow({ position, onRemove, onQuantityChange, onAufstellort }) {
+export default function PackingListItemRow({
+  position, onRemove, onQuantityChange, onAufstellort,
+  aufstellort = 'innerorts', aufstellhoehe = 2.0,
+}) {
   const [qty, setQty] = useState(position.stueckzahl);
 
   const handleQtyChange = (newQty) => {
@@ -21,6 +26,10 @@ export default function PackingListItemRow({ position, onRemove, onQuantityChang
 
   const isMaterial = position.type === 'material';
   const fussplatten = isMaterial ? fussplattenGesamt(position) : 0;
+  const wind = useMemo(
+    () => (!isMaterial ? signWindlast(position.zeichennummer, position.stueckzahl, aufstellort, aufstellhoehe) : null),
+    [isMaterial, position.zeichennummer, position.stueckzahl, aufstellort, aufstellhoehe]
+  );
   const bild = useMemo(
     () => (position.bild || BILD_MAP.get(position.zeichennummer) || ''),
     [position.bild, position.zeichennummer]
@@ -48,6 +57,11 @@ export default function PackingListItemRow({ position, onRemove, onQuantityChang
         {position.zeichennummer && <span className="item-nr mono">{position.zeichennummer}</span>}
         {position.wunschtext && <small className="wunschtext">Text: {position.wunschtext}</small>}
         {isMaterial && <small>{position.einheit}</small>}
+        {wind && (
+          <small className="item-wind">
+            {wind.momentNm} Nm · {wind.klasseText} · {wind.fussplattenGesamt} Fußpl.
+          </small>
+        )}
         {isMaterial && position.fussplattenJe > 0 && (
           <div className="item-windlast">
             <select
