@@ -6,10 +6,26 @@ import { Regelplaene } from "./pages/Regelplaene.jsx";
 import { RegelplanDetail } from "./pages/RegelplanDetail.jsx";
 import { ProjectSelector } from "./pages/ProjectSelector.jsx";
 import { Auswertung } from "./pages/Auswertung.jsx";
+import { StartGate } from "./pages/StartGate.jsx";
 import { useView } from "./app/ViewContext.jsx";
+import { useState } from "react";
+
+function entryDone() {
+  try { return localStorage.getItem("vzk-entry-done") === "1"; } catch { return false; }
+}
 
 export default function App() {
   const { view } = useView();
+  const [gateDone, setGateDone] = useState(entryDone);
+
+  // Vorgeschaltete Startseite beim ersten Aufruf (Dashboard-Route, noch kein Eintritt).
+  if (!gateDone && view.name === "dashboard") {
+    return (
+      <AppShell>
+        <StartGate onDone={() => setGateDone(true)} />
+      </AppShell>
+    );
+  }
 
   return (
     <AppShell>

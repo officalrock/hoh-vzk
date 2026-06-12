@@ -1,0 +1,42 @@
+/* Vorgeschaltete Startseite */
+.start-gate {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.start-gate__head {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.start-gate__head h1 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+.start-gate__head p {
+  color: var(--text-leise, #8a93a3);
+}
+.start-gate__card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border: 1px solid var(--border, #2c333d);
+  border-radius: 14px;
+  background: var(--panel, #1c2128);
+}
+.start-gate__card legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.start-gate__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+.start-gate__actions .btn {
+  flex: 1;
+  min-width: 200px;
+  justify-content: center;
+}
