@@ -237,3 +237,58 @@
   display: block;
   background: #525659;
 }
+
+/* Kunden-Anmerkung + PDF-Stempel */
+.rp-kunde {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rp-kunde__label {
+  font-size: 0.78rem;
+  color: var(--text-leise);
+  font-weight: 600;
+}
+.rp-kunde__input {
+  width: 100%;
+  resize: vertical;
+  padding: 8px 10px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.88rem;
+}
+.rp-pdf-stamp {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rp-pdf-stamp:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+.rp-pdf-stamp:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+.rp-spin {
+  animation: rp-spin 0.8s linear infinite;
+}
+@keyframes rp-spin {
+  to { transform: rotate(360deg); }
+}
+.rp-pdf-error {
+  margin-top: 8px;
+  color: #e25b5b;
+  font-size: 0.82rem;
+}
